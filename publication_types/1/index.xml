@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Zhen Zhang</title>
-    <link>https://zzhang1987.github.io/publication_types/1/index.xml</link>
+    <link>http://zzhang.org/publication_types/1/index.xml</link>
     <description>Recent content in 1 on Zhen Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,46 +11,46 @@
     
     <item>
       <title>Solving Constrained Combinatorial Optimisation Problems Via MAP Inference Without High-order Penalties</title>
-      <link>https://zzhang1987.github.io/publication/CMRF/</link>
+      <link>http://zzhang.org/publication/CMRF/</link>
       <pubDate>Sun, 12 Feb 2017 16:31:20 +0800</pubDate>
       
-      <guid>https://zzhang1987.github.io/publication/CMRF/</guid>
+      <guid>http://zzhang.org/publication/CMRF/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pairwise Matching through Max-Weight Bipartite Belief Propagation</title>
-      <link>https://zzhang1987.github.io/publication/Matching/</link>
+      <link>http://zzhang.org/publication/Matching/</link>
       <pubDate>Tue, 28 Jun 2016 21:28:05 +0800</pubDate>
       
-      <guid>https://zzhang1987.github.io/publication/Matching/</guid>
+      <guid>http://zzhang.org/publication/Matching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Probabilistic Matching Using m-Best Solutions</title>
-      <link>https://zzhang1987.github.io/publication/JointMatching/</link>
+      <link>http://zzhang.org/publication/JointMatching/</link>
       <pubDate>Mon, 27 Jun 2016 21:47:17 +0800</pubDate>
       
-      <guid>https://zzhang1987.github.io/publication/JointMatching/</guid>
+      <guid>http://zzhang.org/publication/JointMatching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Probabilistic Data Association Revisited</title>
-      <link>https://zzhang1987.github.io/publication/JPDA/</link>
+      <link>http://zzhang.org/publication/JPDA/</link>
       <pubDate>Wed, 11 Nov 2015 07:28:02 +0800</pubDate>
       
-      <guid>https://zzhang1987.github.io/publication/JPDA/</guid>
+      <guid>http://zzhang.org/publication/JPDA/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning graph structure for multi-label image classification via clique generation</title>
-      <link>https://zzhang1987.github.io/publication/learnGraph/</link>
+      <link>http://zzhang.org/publication/learnGraph/</link>
       <pubDate>Thu, 11 Jun 2015 07:35:20 +0800</pubDate>
       
-      <guid>https://zzhang1987.github.io/publication/learnGraph/</guid>
+      <guid>http://zzhang.org/publication/learnGraph/</guid>
       <description></description>
     </item>
     
