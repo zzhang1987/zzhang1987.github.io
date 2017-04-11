@@ -1,0 +1,425 @@
+==================================================
+AAAI (accept)
+==================================================
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 101
+TITLE: Solving constrained combinatorial optimisation problems via MAP inference without high-order penalties
+AUTHORS: Zhen Zhang, Qinfeng Shi, Julian McAuley, Wei Wei, Yanning Zhang, Rui Yao and Anton Van Den Hengel
+
+Significance: 3 (substantial, novel contribution)
+Soundness: 3 (correct)
+Scholarship: 2 (relevant literature cited but could expand)
+Clarity: 3 (crystal clear)
+Breadth of Interest: 3 (some interest beyond specialty area)
+SUMMARY RATING: 3 (+++)
+
+----------- Summarize the Main Contribution of the Paper -----------
+This paper presents a new approach to solve constrained combinatorial optimization
+
+----------- Comments for the Authors -----------
+The paper introduces a novel approach where the propose MAP inference using Belief propagation to solve constrained combinatorial optimization problems.
+
+The main contribution of this paper is setting up constrained optimization as an LP problem without encoding all the constraints directly into the graphical model as potentials which can be expensive. Instead they formula the dual problem over re-parameterizations of the potentials and use BP to approximately solve this dual problem as an instance of MAP inference. Subsequently, they develop an efficient approach to solve the optimization problem with BP using co-ordinate descent.
+
+The paper is mostly well-written, section 3,4 may be a little dense for general AAAI audience. The theory seems sound and convincing, and there are guarantees on approximate solution quality. The experiments are well-done. Specifically, the authors do a good job of performing their experiments in the context of various applications. Impressively, they are able to outperform commercial solvers such as CPLEX on these applications.
+
+Overall, I did not find much to complain about in this paper.
+
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 101
+TITLE: Solving constrained combinatorial optimisation problems via MAP inference without high-order penalties
+AUTHORS: Zhen Zhang, Qinfeng Shi, Julian McAuley, Wei Wei, Yanning Zhang, Rui Yao and Anton Van Den Hengel
+
+Significance: 2 (modest or incremental contribution)
+Soundness: 3 (correct)
+Scholarship: 3 (excellent coverage of related work)
+Clarity: 2 (more or less readable)
+Breadth of Interest: 3 (some interest beyond specialty area)
+SUMMARY RATING: 1 (+ (weak accept))
+
+----------- Summarize the Main Contribution of the Paper -----------
+This paper applies a coordinate descent belief propagation method to solve a dual problem of an MPLP on reparametrized potentials over many high order constraints. Comparing with other methods including Lim’s, AD3, subgradient, and CPLEX, this new approach is better.
+
+----------- Comments for the Authors -----------
+The contributions of the paper seem limited. It looks like it only about using coordinate descent to speed up the BP for K constraints, which is incremental, I think, even the concept of using coordinate descent has been talked in previous MPLP papers (despite those are different things). So, my first question is what other contributions are in the paper besides the coordinate descent method?
+
+Second, I am interested in seeing more results on carefully designed (synthetic) experiments for comparison. Since the proposed algorithm is claimed to be more efficient and accurate, well-designed synthetic experiments would let me know more about the scalability of this improvements. I see good comparisons on dimensions of variables and some over "K"s, but "b" in the constraints are always fixed at a constant value. So, my question is whether different "b" would influence the runtimes of these methods. Would different "b" values make these methods converge in the same speed or differently?
+
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 101
+TITLE: Solving constrained combinatorial optimisation problems via MAP inference without high-order penalties
+AUTHORS: Zhen Zhang, Qinfeng Shi, Julian McAuley, Wei Wei, Yanning Zhang, Rui Yao and Anton Van Den Hengel
+
+Significance: 2 (modest or incremental contribution)
+Soundness: 3 (correct)
+Scholarship: 3 (excellent coverage of related work)
+Clarity: 2 (more or less readable)
+Breadth of Interest: 3 (some interest beyond specialty area)
+SUMMARY RATING: 3 (+++)
+
+----------- Summarize the Main Contribution of the Paper -----------
+An algorithm for solving combinatorial maximum a posteriori inference problems under general constraints is presented. The algorithm solves the dual of the LP relaxation via approximate coordinate descent which relies on a reparameterization of the dual variables. The main claim is that the presented algorithm is, in practice, (1) faster than current combinatorial MAP methods (2) in many cases more accurate than current combinatorial MAP methods. While the authors provide proofs of several mathematical statements involved in the design of the algorithm, the main contribution of the work is the experimental results as well as the algorithm itself.
+
+----------- Comments for the Authors -----------
+I appreciated the detailed explanation of the algorithm, especially starting with the case of one constraint and moving to the case of several constraints. This detailed explanation of the algorithm was crucial to understanding the work presented in the paper. However, I am not completely convinced about the implementation of the reparameterization update rules. It seems that the update is applied to each potential in C a fixed number of times, although this is not entirely clear from the paper or the appendix. I am curious as to why the updates are applied a fixed number of times and not until some convergence criteria is met. It seems difficult to provide any guarantees on the correctness of the method. Also, I would question the reasonableness of assumption 1. While one can always add more potentials, it seems that doing so adds more computational effort in the coordinate descent steps. However, I am not an expert in MAP inference algorithms so I could be incorrect in thi!
+ s regard.
+
+Because theoretical guarantees are not provided, it seems to me that the main result of this paper is the experimental performance of the algorithm. The results seem to indicate the efficiency of the algorithm over existing methods. However, parts of the experiments are unclear and leave more to be desired. For instance, in the Foreground Detection experiment, it seems that the algorithms are run on only a single real image. Usually, one would want to see the results of the algorithm on an entire dataset, not just a single image. Moreover, the results on the optimality of the decoded integer solutions are not very descriptive, as only the rankings are provided. Again, it appears that the algorithm is tested for only a single real image for the Image Reconstruction. Finally, the synthetic data for the Quadratic Knapsack Problem seems like an uninteresting problem instance for two reasons: (1) random test instances tend to not be the hard or interesting ones (2) the diagonal s!
+ tructure of the cost grid seems quite limiting for test instances. I would say that the experiments are very hopeful that the method is good, but not very conclusive.
+
+In summary, I think that the algorithm is very well explained and motivated, albeit a slight issue with the clarity of the reparametrization updates, while the experiments are hopeful but not entirely convincing. If the authors are limited for space, I would recommend dropping one of the applications to focus more on the others.
+
+
+----------------------- REVIEW 4 ---------------------
+PAPER: 101
+TITLE: Solving constrained combinatorial optimisation problems via MAP inference without high-order penalties
+AUTHORS: Zhen Zhang, Qinfeng Shi, Julian McAuley, Wei Wei, Yanning Zhang, Rui Yao and Anton Van Den Hengel
+
+Significance: 2 (modest or incremental contribution)
+Soundness: 2 (minor inconsistencies or small fixable errors)
+Scholarship: 3 (excellent coverage of related work)
+Clarity: 2 (more or less readable)
+Breadth of Interest: 3 (some interest beyond specialty area)
+SUMMARY RATING: 1 (+ (weak accept))
+
+----------- Summarize the Main Contribution of the Paper -----------
+The paper presents a new approach for solving constrained combinatorial optimization problems using a message passing MAP inference scheme. In practice, the new algorithm performs quite well finding better quality solutions much faster than state-of-the-art solvers.
+
+----------- Comments for the Authors -----------
+Existing solvers deal with the additional constrains by introducing extra potentials for each constraint. This often results in very high order potentials which are in general intractable. This paper proposes an alternative reformulation of a constrained combinatorial problem that avoids introducing auxiliary high order potentials. To my understanding, the proposed approach is a kind of Lagrange relaxation which is the standard practice when dealing with difficult constraints, and it's very similar to the LP relaxations developed and used for MAP inference in graphical models. Therefore, I find the technical contribution limited.
+
+However, the empirical results are quite strong and demonstrate the potential of the proposed relaxation and message-passing scheme compared with existing solvers on a variety of benchmark problems. The new solver turns out to be not only faster but it was also able to generate better quality MAP solutions than its competitors.
+
+
+-------------------------  METAREVIEW  ------------------------
+PAPER: 101
+TITLE: Solving constrained combinatorial optimisation problems via MAP inference without high-order penalties
+
+The paper introduces a new translation of constrained optimization problems to linear programs which are similar to relaxations of MAP inference problems. While this has been done before the novelty is that new the translation does not introduce high order potentials that would imply high cost for inference. The paper then derives a message passing scheme to optimize the constrained objective. The derivation follows similar lines to MAP relaxations but does introduce a few novel steps. The authors have not done a good job of distinguishing standard from novel steps in that derivation and I would encourage them to do so in the final version. Experimental results are strong and given that the problem is common and important suggest potential impact.
+
+
+==================================================
+NIPS (reject)
+==================================================
+
+Masked Reviewer ID: Assigned_Reviewer_1
+
+Review: 
+Question   
+Summary: Provide a brief summary of the contents of the paper.
+The authors describe a technique for solving a combinatorial optimization problem on a graphical model with certain well-structured constraints, by using Lagrange multipliers to enforce the constraints and then jointly optimizing over the Lagrange multipliers and the resulting dual decomposition relaxation of the associated combinatorial problem.
+
+Fatal flaws: Does the paper have a "fatal flaw" making it unfit for publication, regardless of other criteria (may include out of scope, double publication, plagiarism, wrong proofs, flawed experiments)? Use the text box to justify your answer.
+No (not as far as I can see)
+
+Technical quality: whether experimental methods are appropriate, proofs are sound, results are well analyzed.
+3-Poster level (top 30% submissions)
+
+Novelty/originality: in any aspect of the work, theory, algorithm, applications, experimental.
+2-Sub-standard for NIPS
+
+Potential impact or usefulness: could be societal, academic, or practical and should be lasting in time, affecting a large number of people and/or bridge the gap between multiple disciplines.
+2-Sub-standard for NIPS
+
+Clarity and presentation: explanations, language and grammar, figures, graphs, tables, proper references.
+3-Poster level (good enough)
+
+Qualitative assessment: Provide constructive feedback to the authors; justify and complement your ratings above. This is our MOST IMPORTANT QUESTION, we need to get good arguments for our decisions!
+The authors' algorithm is simple and intuitive, which is very nice. However, it may be a bit trivial. The examples considered in the paper are sparsity-enforcing constraints and sparsity-of-difference smoothness constraints, common in computer vision applications. However, I think most implementations of these models already follow a Lagrange multiplier version of these problems, in which sparsity is encouraged through local penalties, in which each pixel or edge pays a cost for being non-zero. The value of this penalty can be viewed as a Lagrange multiplier that enforces a particular level of sparsity. It is also standard practice to adjust the penalty to produce the desired level of sparsity. From this perspective, then, the novelty in the authors' approach is mainly to specify the desired level of sparsity and then adjust the penalty inside the inference loop; it seems otherwise exactly equivalent. Viewed this way, it is less of an algorithmic innovation than a difference in problem specification. The non-vision task (quadratic knapsack) seems artificial and constructed so that graph-based message passing will do well; are there applications in which the authors' technique is significantly better?
+
+Reviewer confidence regarding this review.
+2-Confident (read it all; understood it all reasonably well)
+
+
+Masked Reviewer ID: Assigned_Reviewer_2
+
+Review: 
+Question   
+Summary: Provide a brief summary of the contents of the paper.
+Authors replace inequality-constrained integer programming problems (2) into the LP relaxation (7), using the languange and notation of MAP inference problems with graphical models. The paper is about a heuristic procedure for optimizing the non-smooth dual objective with respect the multiplier variables for the inequality constraints. The heuristic amounts to interleave belief propagation updates and dual-coordinate updates through binary search. The performance is experimentally evaluated in terms the quality of recovered integer primal solutions and runtime, and compared to some other methods.
+
+Fatal flaws: Does the paper have a "fatal flaw" making it unfit for publication, regardless of other criteria (may include out of scope, double publication, plagiarism, wrong proofs, flawed experiments)? Use the text box to justify your answer.
+No (not as far as I can see)
+
+Technical quality: whether experimental methods are appropriate, proofs are sound, results are well analyzed.
+3-Poster level (top 30% submissions)
+
+Novelty/originality: in any aspect of the work, theory, algorithm, applications, experimental.
+3-Poster level (some notable novel contributions)
+
+Potential impact or usefulness: could be societal, academic, or practical and should be lasting in time, affecting a large number of people and/or bridge the gap between multiple disciplines.
+3-Poster level (looks promising)
+
+Clarity and presentation: explanations, language and grammar, figures, graphs, tables, proper references.
+3-Poster level (good enough)
+
+Qualitative assessment: Provide constructive feedback to the authors; justify and complement your ratings above. This is our MOST IMPORTANT QUESTION, we need to get good arguments for our decisions!
+Readers familiar with the optimization literature at large will not like this paper for two reasons. 
+
+(i) The strategy of dualizing away complicating constraints abounds in the literature (to give another example: solving approximately quadratic assignment problems by block linear assignment problems as subproblems of the dual problem). This general strategy is justified as “novel” in view of alternatives - “introducing higher-order extra potentials” - which sound odd to me.
+
+(ii) Authors include statements in terms of Propositions 1-5 that should be obvious to NIPS attendees with elementary knowledge in convex analysis and optimization, but ignore less trivial points like a convergence statement towards a dual-optimal solution (non-increasing objective function is not sufficient) and substantiating their method for primal recovery. Coordinate descent for non-smooth objectives requires some care in order to achieve convergence. 
+ Readers that accept heuristics and are satisfied with good experimental results may like this paper. They can extract the message that “smoothing” by *tightly* interleaving BP-steps and dual-coordinate updates is a plausible strategy that may return sufficiently good suboptima in practice.
+
+Reviewer confidence regarding this review.
+2-Confident (read it all; understood it all reasonably well)
+
+
+Masked Reviewer ID:
+Assigned_Reviewer_3
+
+Review: 
+Question   
+Summary: Provide a brief summary of the contents of the paper.
+The authors propose a message passing algorithm to solve the dual of a constrained combinatorial optimization problem. The derivation results in optimizing a bound to the objective. The bound factorizes to local optimization problems over the cliques, where each local term is composed of the reparameterization \tilde{\theta} to the original potential \theta, and of the constraint \phi multiplied by the parameter \gamma.
+Optimizing the dual (the bound) is a joint optimization problem over the reparamterization \tilde{\theta} and the factors \gamma.
+The proposed algorithm is iterating between the sets of parameters as follows:
+1. fix \gamma, compute an approximation to the optimal reparameterization
+2. extract the approximate MAP x* from the reparameterization
+3. update \gamma using x*
+
+The experiments compare the proposed algorithm to Lim et al's cutting-plane method, AD3, CPLEX, and with the proposed algorithm where BP is replaced by a convergent convex message passing algorithm. The methods are compared for foreground detection, image reconstruction, diverse M-best solutions, and quadratic knapsack problem. The novel algorithm proposed is found the most efficient in terms of speed.
+
+
+Fatal flaws: Does the paper have a "fatal flaw" making it unfit for publication, regardless of other criteria (may include out of scope, double publication, plagiarism, wrong proofs, flawed experiments)? Use the text box to justify your answer.
+No (not as far as I can see)
+
+Technical quality: whether experimental methods are appropriate, proofs are sound, results are well analyzed.
+3-Poster level (top 30% submissions)
+
+Novelty/originality: in any aspect of the work, theory, algorithm, applications, experimental.
+3-Poster level (some notable novel contributions)
+
+Potential impact or usefulness: could be societal, academic, or practical and should be lasting in time, affecting a large number of people and/or bridge the gap between multiple disciplines.
+3-Poster level (looks promising)
+
+Clarity and presentation: explanations, language and grammar, figures, graphs, tables, proper references.
+3-Poster level (good enough)
+
+Qualitative assessment: Provide constructive feedback to the authors; justify and complement your ratings above. This is our MOST IMPORTANT QUESTION, we need to get good arguments for our decisions!
+The proposed algorithm is based on a derivation of the dual, which seems identical to the one in the cutting-plane algorithm, but with the different view of the problem as a reparameterization. This view of the bound allows replacing the sub-gradient with an efficient message passing algorithm as BP, and achieve speed on the account of accuracy.
+
+To improve clarity, the authors could present a high level and more intuitive description in each section before presenting all mathematical details.
+
+The tight relation to existing work should have been more explicit, and potentially could have saved some of the propositions.
+
+Reviewer confidence regarding this review.
+2-Confident (read it all; understood it all reasonably well)
+
+
+Masked Reviewer ID: Assigned_Reviewer_4
+
+Review: 
+Question   
+Summary: Provide a brief summary of the contents of the paper.
+This paper takes the dual decomposition formulation that has been well studied in the NIPS/CVPR etc communities and applies it to problems that have not been traditionally considered with that framework. Specifically it applies it to problems where inequality constraints are present. There has been some work in this line such as "Global Perspective on MAP Inference for Low-Level Vision ". 
+
+The authors introduce some relevant problems in examples 1-4. Next the authors make an important observation. They observe that the higher order constraint makes inference np hard for the inner loop of belief propagation schemes. Instead the authors dualize the inequality constraint forming a Lagrange multiplier than can be searched over via binary search. Given the Lagrange multiplier the authors recover MAP inference problem that can be attacked using standard message passing/dual decomposition methods. 
+
+The authors provide two algorithms. One considers the case where there is a single inequality constraint. For this algorithm the authors search over the Lagrange multiplier for the inequality constraint and for each value apply message passing inference. The second method is a coordinate optimization approach where the multipliers and messaged are updated in turn and considers problems with multiple inequality constraints.
+
+Fatal flaws: Does the paper have a "fatal flaw" making it unfit for publication, regardless of other criteria (may include out of scope, double publication, plagiarism, wrong proofs, flawed experiments)? Use the text box to justify your answer.
+No (not as far as I can see)
+
+Technical quality: whether experimental methods are appropriate, proofs are sound, results are well analyzed.
+3-Poster level (top 30% submissions)
+
+Novelty/originality: in any aspect of the work, theory, algorithm, applications, experimental.
+3-Poster level (some notable novel contributions)
+
+Potential impact or usefulness: could be societal, academic, or practical and should be lasting in time, affecting a large number of people and/or bridge the gap between multiple disciplines.
+3-Poster level (looks promising)
+
+Clarity and presentation: explanations, language and grammar, figures, graphs, tables, proper references.
+3-Poster level (good enough)
+
+Qualitative assessment: Provide constructive feedback to the authors; justify and complement your ratings above. This is our MOST IMPORTANT QUESTION, we need to get good arguments for our decisions!
+I am voting to accept with much hesitation. I really enjoyed how the authors are able to include the inequality constraints in the potentials of the MAP problem via the dual. 
+
+I am highly skeptical about the method for decoding solutions. I think that a cleaner more focused discussion of decoding integer solutions would be appropriate especially in the context of the knapsack problem. Making a local decisions will not likely yield a solution that is feasible. 
+
+Particularly I would recommend taking quadratic knapsack problem and putting the resultant algorithm into the language of dynamic programming based approximation schemes. 
+
+I am curious how the inequality constraints interact with the structure of fixed points in message passing optimization and would like to see some discussion of this in the context of algorithm two.
+
+It is well known that the local polytope is a weak relaxation to begin with and that the relaxation in the early diverse M best work corresponds to a poor relaxation that is not assisted by spanning tree inequalities or their generalization. I would remove this application and focus on the knapsack and one other application such as image reconstruction.
+Reviewer confidence regarding this review.  3-Expert (read the paper in detail, know the area, quite certain of my opinion)
+
+
+Masked Reviewer ID: Assigned_Reviewer_5
+
+Review: 
+Question   
+Summary: Provide a brief summary of the contents of the paper.
+This paper extends the local polytope approximation to MAP inference with generic local constraints (on top of pseudomarginal consistency) and derives a message-passing algorithm to solve these LPs. The main idea of the algorithm is to conduct monotone descent on the dual problem by means of sequentially narrowing down an upper and lower bound on the optimal solution quality. The algorithm is evaluated on several well-known inference problems showing promising results.
+
+Fatal flaws: Does the paper have a "fatal flaw" making it unfit for publication, regardless of other criteria (may include out of scope, double publication, plagiarism, wrong proofs, flawed experiments)? Use the text box to justify your answer.
+No (not as far as I can see)
+
+Technical quality: whether experimental methods are appropriate, proofs are sound, results are well analyzed.
+3-Poster level (top 30% submissions)
+
+Novelty/originality: in any aspect of the work, theory, algorithm, applications, experimental.
+3-Poster level (some notable novel contributions)
+
+Potential impact or usefulness: could be societal, academic, or practical and should be lasting in time, affecting a large number of people and/or bridge the gap between multiple disciplines.
+3-Poster level (looks promising)
+
+Clarity and presentation: explanations, language and grammar, figures, graphs, tables, proper references.
+2-Sub-standard for NIPS
+
+Qualitative assessment: Provide constructive feedback to the authors; justify and complement your ratings above. This is our MOST IMPORTANT QUESTION, we need to get good arguments for our decisions!
+My overall impression of this paper is as follows: 
+
+* I believe that the paper in itself presents a useful contribution, generalizing the local polytope to problems with arbitrary local constraints is an interesting idea, especially with the observation that it avoids wide factors when representing partially separable constraints. 
+
+* Regarding novelty and significance - this paper builds on top of the very well established understanding of the dual structure of local relaxations. As such, the novelty is not very high, but the contribution is nevertheless interesting. 
+
+* Presentation: this is the main sticking point of this paper. The introductory part of the paper is OK, the motivation is rather clear, however, the way the algorithm is developed is really hard to follow. I got stuck already at the derivation of the dual. It is not clear to me how the authors derive the last step, where they give a blanket statement that it follows from Kolmogorov's paper on TRW. I went through the paper and I'm still not sure which argument the authors refer to. As a sanity check, I tried to set the single constraint phi to the zero function and restrict the problem to pairwise interactions, expecting to arrive at one of the local polytope duals I'm familiar with, but this didn't work out. The way this dual is specified, it seems that the constraint of the reparametrization is that the sum of all reperametrized factors has to be equal to the sum of the original factors, whereas the typical reparametrization constraint would be that the reparametrized factor is equal to the original factor plus the incoming messages. I think I have misunderstood something here. Could the authors give more details on their dual derivation? 
+
+My second point is that the derivation of the algorithm is somewhat difficult to process in the order it is presented. What could help here is that the authors give a paragraph before doing any math, outlining what they intend to do, otherwise it is difficult to keep an overview of going on, requiring multiple readings to get a hang of the algorithm. 
+Overall I'm on the fence about this paper: I think the contribution is interesting, but the presentation is suboptimal. 
+
+Reviewer confidence regarding this review.
+2-Confident (read it all; understood it all reasonably well)
+
+
+Masked Reviewer ID: Assigned_Reviewer_6
+
+Review: 
+Question   
+Summary: Provide a brief summary of the contents of the paper.
+This paper design a efficient heuristic for solving MAP inference having high-order constraints, where naive belief propagation approaches are expensive due to high-order constraints. The authors first design a re-parameterized version of the dual problem,
+and address the optimization task for computing sub-gradient. Then, they consider a coordinate descent procedure to solve the sub-gradient optimization. Experimental results shows that suggested algorithm performs better than existing algorithms including CPLEX, sub-gradient, etc.
+
+Fatal flaws: Does the paper have a "fatal flaw" making it unfit for publication, regardless of other criteria (may include out of scope, double publication, plagiarism, wrong proofs, flawed experiments)? Use the text box to justify your answer.
+No (not as far as I can see)
+
+Technical quality: whether experimental methods are appropriate, proofs are sound, results are well analyzed.
+3-Poster level (top 30% submissions)
+
+Novelty/originality: in any aspect of the work, theory, algorithm, applications, experimental.
+3-Poster level (some notable novel contributions)
+
+Potential impact or usefulness: could be societal, academic, or practical and should be lasting in time, affecting a large number of people and/or bridge the gap between multiple disciplines.
+2-Sub-standard for NIPS
+
+Clarity and presentation: explanations, language and grammar, figures, graphs, tables, proper references.
+2-Sub-standard for NIPS
+
+Qualitative assessment: Provide constructive feedback to the authors; justify and complement your ratings above. This is our MOST IMPORTANT QUESTION, we need to get good arguments for our decisions!
+In essence, the authors design a coordinate descent (CD) based heuristic, where CD is applied to solve a sub-gradient optimization instead of the original optimization. The proposed algorithm is interesting and makes sound. However, the quality of presentation should be much improved, and there are many typos which make hard to read. And, the proposed algorithm lacks of theoretical justification as listed below.
+
+1. There is no guarantee for convergence to the optimal solution, e.g., it is not even clear update (15) monotonically decreases the objective of (14). 
+
+2. In Algorithm 1, 2, feasibility of \hat x is required to update \gamma and x^*. What happens if \hat x is not feasible ? Providing conditions which guarantee the feasibility of \hat x would be useful.
+
+Other comments are
+
+3. What is the difference between suggested algorithms and applying the coordinate descent (belief propagation) directly to compute g(\gamma) (given fixed \gamma) with a similar decoding scheme? If one can estimate g(\gamma), I think one can also apply a similar binary search strategy for solving (11).
+
+4. I do not think the proposed algorithm lies in the category of "belief propagation'. For example, the authors of MPLP [8] also do not call MPLP as a belief propagation.
+
+Reviewer confidence regarding this review.
+2-Confident (read it all; understood it all reasonably well)
+
+
+==================================================
+ICML (reject)
+==================================================
+
+Masked Reviewer ID: Assigned_Reviewer_1
+
+Review: 
+Question   
+Clarity (Assess the clarity of the presentation and reproducibility of the results.)
+Above Average
+
+Clarity - Justification
+There are a few typos and misrepresentations. For example, the authors claim that none of the dual LP relaxation techniques can handle MAP inference with constraints. This is false. The distinction that the authors are trying to draw is not one of representation but rather one of efficient representation. Some notation could also be improved, e.g., \delta g is not easy to read notation.
+
+Significance (Does the paper contribute a major breakthrough or an incremental advance?)
+Above Average
+
+Significance - Justification
+The contributions are interesting and follow from a long line of work on dual message-passing techniques (which are cited).
+
+Detailed comments. (Explain the basis for your ratings while providing constructive feedback.)
+The proposed approach seems interesting and useful in a variety of applications where these kinds of global constraints arise. My primary complaint is that even though adding global constraints could result in a computationally intractable model, it need not in practice as computing the messages in these dual message passing schemes often remains tractable (especially when the global constraints are particularly simple). This is, in particular, the case whenever the phi functions are all linear in the variables as in Example 4. Examples 1 and 3 also seem to be relatively straightforward to handle in the standard approach. Basically, the authors should focus on applications in which the proposed approach really outshines the standard approach and compare with the standard approach for problems on which both are feasible.
+
+Overall Rating
+Weak accept
+
+Reviewer confidence
+Reviewer is an expert
+
+Please acknowledge that you have read the author rebuttal. If your opinion has changed, please summarize the main reasons below.
+I read the author feedback. I think that the paper is definitely borderline, but I still fall on the side of weak accept.
+
+
+Masked Reviewer ID: Assigned_Reviewer_2
+
+Review: 
+Question   
+Clarity (Assess the clarity of the presentation and reproducibility of the results.)
+Excellent (Easy to follow)
+
+Clarity - Justification
+Clearly written.
+
+Significance (Does the paper contribute a major breakthrough or an incremental advance?)
+Below Average
+
+Significance - Justification
+This is an interesting alternative approach to handling high-order constraints in MAP inference. However (contrary to authors' claims) I'm not convinced that it can handle more complex problems than existing methods for message-passing inference. If this is indeed the case, there should be an example.
+I do like the general idea, and the algorithm seems faster than compared methods, though experiments could be more thorough.
+
+Detailed comments. (Explain the basis for your ratings while providing constructive feedback.)
+- The authors motivate the approach as an alternative to intractable high-order potentials. However, for all of the potentials they consider (l0 norm, linear constraints), messages can be computed tractably. I'd be curious to see an example of a constraint for which messages are intractable and which can be reformulated as they propose, if one exists.
+- Related to the first comment, the authors claim that an alternative method ADDD cannot handle the "sparse gradient" constraint sum_{(i,j) in C} |x_i - x_j|_0 <= b. However, I think this could be reformulated by creating an auxiliary variable y, with a constraint y=x_i-x_j; (or a vector y with elements x_i - x_j for (i, j) in C), and a cardinality constraint on y. 
+- Empirically, standard (not convexified) belief propagation is often faster and better at breaking symmetries than LP versions, and should probably be included in the experiments. CPLEX is already expected to be slower and less scalable than message passing algorithms like TRBP based on published results. 
+- Given the differences in implementations, the comparison in terms of wall-clock time might not be very precise (though I understand both AD3 and the proposed method are based on C++). 
+
+Overall Rating
+Weak reject
+
+Reviewer confidence
+Reviewer is knowledgeable
+
+Please acknowledge that you have read the author rebuttal. If your opinion has changed, please summarize the main reasons below.  
+After reading author feedback:
+Thank you for performing the additional experiment with AD3 in such a short time. I do still have issues with the claim that this approach is viable for problems with intractable HOPs -- revise claims if you can't provide an example.
+
+
+Masked Reviewer ID: Assigned_Reviewer_4
+
+Review: 
+Question   
+Clarity (Assess the clarity of the presentation and reproducibility of the results.)
+Above Average
+
+Clarity - Justification
+The paper is clear.
+Using the re-parameterization notation eq. 16b is not very clear.
+Significance (Does the paper contribute a major breakthrough or an incremental advance?)  Above Average
+Significance - Justification  The paper present a new algorithm to solve interesting problem.
+Previous works only deal with specific high order constrains (for example "Tighter Linear Program Relaxations for High Order Graphical Models") while this paper handle broader family of constrains.
+
+Detailed comments. (Explain the basis for your ratings while providing constructive feedback.)
+I have one question which I think should be explained in the text. Why can not you add factors as in lines 529.
+
+In the experiments you should compare results to methods that use HOP when it is possible, if there is no method that know how to deal with such constrain (HOP) state it does not fall into one of the HOP's that could be calculated.
+Comparing time is very problematic and implementation dependent.
+
+Typos:
+1.Appendix proof of proposition 4 line 1410 you switch the > with < and vice a versa.
+
+This is paper present a new algorithm that handle interesting scenarios. It demonstrate its value in several problems (see not above about comparing time and comparison to other methods). The theoretical guarantees is similar to other works in this area.
+
+Overall Rating
+Weak accept
+Reviewer confidence
+Reviewer is knowledgeable

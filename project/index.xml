@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Zhen Zhang</title>
+    <link>https://zzhang1987.github.io/project/index.xml</link>
+    <description>Recent content in Projects on Zhen Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Zhen Zhang</copyright>
+    <lastBuildDate>Mon, 10 Apr 2017 21:24:02 +0800</lastBuildDate>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Pairwise Matching through Max-Weight Bipartite Belief Propagation</title>
+      <link>https://zzhang1987.github.io/project/Matching/</link>
+      <pubDate>Mon, 10 Apr 2017 21:24:02 +0800</pubDate>
+      
+      <guid>https://zzhang1987.github.io/project/Matching/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Feature matching is a key problem in computer vision and pattern recognition. One way to encode the essential interdependence between potential feature matches is to cast the problem as inference in a graphical model, though recently alternatives such as spectral methods, or approaches based on the convex-concave procedure have achieved the state-of-the-art. Here we revisit the use of graphical models for feature matching, and propose a belief propagation scheme which exhibits the following advantages: (1) we explicitly enforce one-to-one matching constraints; (2) we offer a tighter relaxation of the original cost function than previous graphical-model-based approaches; and (3) our sub-problems decompose into max-weight bipartite matching, which can be solved efficiently, leading to orders-of-magnitude reductions in execution time. Experimental results show that the proposed algorithm produces results superior to those of the current state-of-the-art.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-matlab-c&#34;&gt;Code (Matlab&amp;amp;C++)&lt;/h2&gt;
+
+&lt;p&gt;Avaible from our &lt;a href=&#34;https://github.com/zzhang1987/HungarianBP&#34; target=&#34;_blank&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;&lt;li itemscope=&#34;&#34; itemtype=&#34;http://schema.org/CreativeWork&#34;&gt;
+&lt;i class=&#34;fa-li fa fa-file-text-o pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+&lt;span itemprop=&#34;name&#34;&gt;
+&lt;a href=&#34;https://zzhang1987.github.io/publication/Matching/&#34; target=&#34;_blank&#34;&gt;Pairwise Matching through Max-Weight Bipartite Belief Propagation&lt;/a&gt;&lt;/span&gt;
+&lt;div class=&#34;pub-authors-list&#34; itemprop=&#34;author&#34;&gt;
+&lt;a href=&#34;https://zzhang.org&#34; target=&#34;_blank&#34;&gt;Zhen Zhang&lt;/a&gt;, &lt;a href=&#34;http://cs.adelaide.edu.au/~javen/&#34; target=&#34;_blank&#34;&gt;Qinfeng Shi&lt;/a&gt;, &lt;a href=&#34;http://cseweb.ucsd.edu/~jmcauley/&#34; target=&#34;_blank&#34;&gt;Julian McAuley&lt;/a&gt;, Wei Wei, Yanning Zhang and &lt;a href=&#34;https://cs.adelaide.edu.au/~hengel/&#34; target=&#34;_blank&#34;&gt;Anton van den Hengel&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;pub-publication&#34;&gt;
+In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016
+&lt;/div&gt;&lt;/li&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MAP Inference Over Constrained Markov Random Field</title>
+      <link>https://zzhang1987.github.io/project/CMRF/</link>
+      <pubDate>Mon, 10 Apr 2017 17:42:31 +0800</pubDate>
+      
+      <guid>https://zzhang1987.github.io/project/CMRF/</guid>
+      <description>&lt;p&gt;Under construction.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

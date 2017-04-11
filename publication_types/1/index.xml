@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Zhen Zhang</title>
+    <link>https://zzhang1987.github.io/publication_types/1/index.xml</link>
+    <description>Recent content in 1 on Zhen Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Zhen Zhang</copyright>
+    <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Solving Constrained Combinatorial Optimisation Problems Via MAP Inference Without High-order Penalties</title>
+      <link>https://zzhang1987.github.io/publication/CMRF/</link>
+      <pubDate>Sun, 12 Feb 2017 16:31:20 +0800</pubDate>
+      
+      <guid>https://zzhang1987.github.io/publication/CMRF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pairwise Matching through Max-Weight Bipartite Belief Propagation</title>
+      <link>https://zzhang1987.github.io/publication/Matching/</link>
+      <pubDate>Tue, 28 Jun 2016 21:28:05 +0800</pubDate>
+      
+      <guid>https://zzhang1987.github.io/publication/Matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Probabilistic Matching Using m-Best Solutions</title>
+      <link>https://zzhang1987.github.io/publication/JointMatching/</link>
+      <pubDate>Mon, 27 Jun 2016 21:47:17 +0800</pubDate>
+      
+      <guid>https://zzhang1987.github.io/publication/JointMatching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Probabilistic Data Association Revisited</title>
+      <link>https://zzhang1987.github.io/publication/JPDA/</link>
+      <pubDate>Wed, 11 Nov 2015 07:28:02 +0800</pubDate>
+      
+      <guid>https://zzhang1987.github.io/publication/JPDA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Learning graph structure for multi-label image classification via clique generation</title>
+      <link>https://zzhang1987.github.io/publication/learnGraph/</link>
+      <pubDate>Thu, 11 Jun 2015 07:35:20 +0800</pubDate>
+      
+      <guid>https://zzhang1987.github.io/publication/learnGraph/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
