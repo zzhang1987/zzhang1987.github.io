@@ -1,0 +1,26 @@
++++
+highlight = true
+url_code = ""
+url_pdf = "http://ieeexplore.ieee.org/document/7752963/"
+selected = false
+abstract_short = ""
+title = "Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving"
+publication_short = ""
+abstract = ""
+publication = "IEEE Transactions on Multimedia. 2016"
+url_video = ""
+math = false
+authors = ["[Rui Yao](https://ruiyao.bitbucket.io)", "Shixiong Xia", "[Zhen Zhang](http://zzhang.org)", "Yanning Zhang"]
+url_project = ""
+url_slides = ""
+image_preview = ""
+url_dataset = ""
+date = "2016-11-11T07:53:15+08:00"
+publication_types = ["2"]
+
+[header]
+  caption = ""
+  image = ""
+
++++
+
