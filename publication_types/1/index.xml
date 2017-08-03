@@ -2,64 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Zhen Zhang</title>
-    <link>http://zzhang.org/publication_types/1/index.xml</link>
+    <link>http://zzhang.org/publication_types/1/</link>
     <description>Recent content in 1 on Zhen Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Zhen Zhang</copyright>
-    <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2017 Zhen Zhang</copyright>
+    <lastBuildDate>Mon, 24 Apr 2017 18:35:03 +0800</lastBuildDate>
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching</title>
-      <link>http://zzhang.org/publication/HMatching/</link>
+      <link>http://zzhang.org/publication/hmatching/</link>
       <pubDate>Mon, 24 Apr 2017 18:35:03 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/HMatching/</guid>
+      <guid>http://zzhang.org/publication/hmatching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Solving Constrained Combinatorial Optimisation Problems Via MAP Inference Without High-order Penalties</title>
-      <link>http://zzhang.org/publication/CMRF/</link>
+      <link>http://zzhang.org/publication/cmrf/</link>
       <pubDate>Sun, 12 Feb 2017 16:31:20 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/CMRF/</guid>
+      <guid>http://zzhang.org/publication/cmrf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pairwise Matching through Max-Weight Bipartite Belief Propagation</title>
-      <link>http://zzhang.org/publication/Matching/</link>
+      <link>http://zzhang.org/publication/matching/</link>
       <pubDate>Tue, 28 Jun 2016 21:28:05 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/Matching/</guid>
+      <guid>http://zzhang.org/publication/matching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Probabilistic Matching Using m-Best Solutions</title>
-      <link>http://zzhang.org/publication/JointMatching/</link>
+      <link>http://zzhang.org/publication/jointmatching/</link>
       <pubDate>Mon, 27 Jun 2016 21:47:17 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/JointMatching/</guid>
+      <guid>http://zzhang.org/publication/jointmatching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Probabilistic Data Association Revisited</title>
-      <link>http://zzhang.org/publication/JPDA/</link>
+      <link>http://zzhang.org/publication/jpda/</link>
       <pubDate>Wed, 11 Nov 2015 07:28:02 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/JPDA/</guid>
+      <guid>http://zzhang.org/publication/jpda/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning graph structure for multi-label image classification via clique generation</title>
-      <link>http://zzhang.org/publication/learnGraph/</link>
+      <link>http://zzhang.org/publication/learngraph/</link>
       <pubDate>Thu, 11 Jun 2015 07:35:20 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/learnGraph/</guid>
+      <guid>http://zzhang.org/publication/learngraph/</guid>
       <description></description>
     </item>
     

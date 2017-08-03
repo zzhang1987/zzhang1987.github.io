@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on Zhen Zhang</title>
-    <link>http://zzhang.org/publication_types/2/index.xml</link>
+    <link>http://zzhang.org/publication_types/2/</link>
     <description>Recent content in 2 on Zhen Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Zhen Zhang</copyright>
-    <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2017 Zhen Zhang</copyright>
+    <lastBuildDate>Fri, 11 Nov 2016 07:53:15 +0800</lastBuildDate>
+    <atom:link href="/publication_types/2/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving</title>
-      <link>http://zzhang.org/publication/trackingYao/</link>
+      <link>http://zzhang.org/publication/trackingyao/</link>
       <pubDate>Fri, 11 Nov 2016 07:53:15 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/trackingYao/</guid>
+      <guid>http://zzhang.org/publication/trackingyao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Variable Kernel Density Estimation Based Robust Regression And Its Applications</title>
-      <link>http://zzhang.org/publication/VKDE/</link>
+      <link>http://zzhang.org/publication/vkde/</link>
       <pubDate>Fri, 11 Apr 2014 07:44:14 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/VKDE/</guid>
+      <guid>http://zzhang.org/publication/vkde/</guid>
       <description></description>
     </item>
     
