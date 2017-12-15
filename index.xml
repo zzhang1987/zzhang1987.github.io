@@ -32,7 +32,7 @@
 &lt;p&gt;Graph matching is a key problem in computer vision and pattern recognition. One way to encode the essential interdependence between potential feature matches is to cast the problem as inference in a graphical model (pairwise model for graph matching and higher-order for hyper graph matching problems). Though recently alternatives such as spectral methods, multt-linear relaxations, or approaches based on the convex-concave procedure have achieved the state-of-the-art. In this project,
  we revisit the use of graphical models for feature matching, and propose a belief propagation scheme which exhibits the following advantages: (1) we explicitly enforce one-to-one matching constraints; (2) we offer a tighter relaxation of the original cost function than previous graphical-model-based approaches;  (3) our sub-problems decompose into max-weight bipartite matching, which can be solved efficiently, leading to orders-of-magnitude reductions in execution time; (4) for hyper-graph matching problem, the dynamic programming technique can be used to further accelerate the algorithm. Experimental results show that the proposed algorithm produces results superior to those of the current state-of-the-art.&lt;/p&gt;
 
-&lt;h2 id=&#34;code-matlab-c&#34;&gt;Code (Matlab&amp;amp;C++)&lt;/h2&gt;
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
 
 &lt;p&gt;The code for pairwise matching is avaible from &lt;a href=&#34;https://github.com/zzhang1987/HungarianBP&#34; target=&#34;_blank&#34;&gt;HungarianBP&lt;/a&gt;.
 The code for higher order matching is avaible from &lt;a href=&#34;https://github.com/zzhang1987/HyperGraphMatchingBP&#34; target=&#34;_blank&#34;&gt;HyperBP&lt;/a&gt;.&lt;/p&gt;
