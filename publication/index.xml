@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Zhen Zhang</copyright>
     <lastBuildDate>Mon, 24 Apr 2017 18:35:03 +0800</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://zzhang.org/publication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching</title>
