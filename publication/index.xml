@@ -2,92 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Zhen Zhang</title>
-    <link>http://zzhang.org/publication/</link>
+    <link>https://zzhang.org/publication/</link>
     <description>Recent content in Publications on Zhen Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Zhen Zhang</copyright>
+    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://zzhang.org/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Convolutional Sequence to Sequence Model for Human Dynamics</title>
+      <link>https://zzhang.org/publication/humancvpr/</link>
+      <pubDate>Wed, 02 May 2018 14:00:20 +0800</pubDate>
+      
+      <guid>https://zzhang.org/publication/humancvpr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching</title>
-      <link>http://zzhang.org/publication/hmatching/</link>
+      <link>https://zzhang.org/publication/hmatching/</link>
       <pubDate>Mon, 24 Apr 2017 18:35:03 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/hmatching/</guid>
+      <guid>https://zzhang.org/publication/hmatching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Solving Constrained Combinatorial Optimisation Problems Via MAP Inference Without High-order Penalties</title>
-      <link>http://zzhang.org/publication/cmrf/</link>
+      <link>https://zzhang.org/publication/cmrf/</link>
       <pubDate>Sun, 12 Feb 2017 16:31:20 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/cmrf/</guid>
+      <guid>https://zzhang.org/publication/cmrf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving</title>
-      <link>http://zzhang.org/publication/trackingyao/</link>
+      <link>https://zzhang.org/publication/trackingyao/</link>
       <pubDate>Fri, 11 Nov 2016 07:53:15 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/trackingyao/</guid>
+      <guid>https://zzhang.org/publication/trackingyao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pairwise Matching through Max-Weight Bipartite Belief Propagation</title>
-      <link>http://zzhang.org/publication/matching/</link>
+      <link>https://zzhang.org/publication/matching/</link>
       <pubDate>Tue, 28 Jun 2016 21:28:05 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/matching/</guid>
+      <guid>https://zzhang.org/publication/matching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Probabilistic Matching Using m-Best Solutions</title>
-      <link>http://zzhang.org/publication/jointmatching/</link>
+      <link>https://zzhang.org/publication/jointmatching/</link>
       <pubDate>Mon, 27 Jun 2016 21:47:17 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/jointmatching/</guid>
+      <guid>https://zzhang.org/publication/jointmatching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Probabilistic Data Association Revisited</title>
-      <link>http://zzhang.org/publication/jpda/</link>
+      <link>https://zzhang.org/publication/jpda/</link>
       <pubDate>Wed, 11 Nov 2015 07:28:02 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/jpda/</guid>
+      <guid>https://zzhang.org/publication/jpda/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Learning graph structure for multi-label image classification via clique generation</title>
-      <link>http://zzhang.org/publication/learngraph/</link>
+      <link>https://zzhang.org/publication/learngraph/</link>
       <pubDate>Thu, 11 Jun 2015 07:35:20 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/learngraph/</guid>
+      <guid>https://zzhang.org/publication/learngraph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Variable Kernel Density Estimation Based Robust Regression And Its Applications</title>
-      <link>http://zzhang.org/publication/vkde/</link>
+      <link>https://zzhang.org/publication/vkde/</link>
       <pubDate>Fri, 11 Apr 2014 07:44:14 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/vkde/</guid>
+      <guid>https://zzhang.org/publication/vkde/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Constraint reduction using marginal polytope diagrams for MAP LP relaxations</title>
-      <link>http://zzhang.org/publication/mrfcr/</link>
+      <link>https://zzhang.org/publication/mrfcr/</link>
       <pubDate>Thu, 11 Apr 2013 07:46:41 +0800</pubDate>
       
-      <guid>http://zzhang.org/publication/mrfcr/</guid>
+      <guid>https://zzhang.org/publication/mrfcr/</guid>
       <description></description>
     </item>
     
