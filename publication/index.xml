@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 14:00:20 +0800</lastBuildDate>
     
 	<atom:link href="https://zzhang.org/publication/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,15 +18,6 @@
       <pubDate>Wed, 02 May 2018 14:00:20 +0800</pubDate>
       
       <guid>https://zzhang.org/publication/humancvpr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Adaptive Markov Random Field for Structured Compressive Sensing</title>
-      <link>https://zzhang.org/publication/csmrf/</link>
-      <pubDate>Thu, 15 Feb 2018 18:35:03 +0800</pubDate>
-      
-      <guid>https://zzhang.org/publication/csmrf/</guid>
       <description></description>
     </item>
     
