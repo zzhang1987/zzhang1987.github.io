@@ -1,0 +1,43 @@
++++
+# About/Biography widget.
+
+date = "2016-04-20T00:00:00"
+draft = false
+
+widget = "about"
+
+# Order that this section will appear in.
+weight = 1
+
+# List your academic interests.
+[interests]
+  interests = [
+    "Machine Learning",
+    "Computer Vision",
+    "Probabilistic Graphical Models"
+  ]
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "Ph.D.  in Computer Science"
+  institution = "Northwestern Polytechnical University"
+  year = "2010 to 2017"
+
+
+[[education.courses]]
+  course = "BSc in Computer Science"
+  institution = "Northwestern Polytechnical University"
+  year = "2006 to 2010"
+
++++
+
+# Biography
+Mr. Zhen Zhang is a postdoctoral research fellow in the Department of Computer Science at the National University of Singapore under the supervision of Prof. [Lee Wee Sun](https://www.comp.nus.edu.sg/~leews/).
+
+<<<<<<< HEAD
+Previously, he recieved a PhD in Computer Science from Northwestern Polytechnical University (Xi'an, China) under the supervision of Prof. [Yanning Zhang](http://teacher.nwpu.edu.cn/ynzhang.html). During Nov. 2012 to Dec. 2014, he was a visiting student at Australian Centre for Visual Technologies, University of Adelaide, under the supervision of Prof. [Anton van den Hengel](https://cs.adelaide.edu.au/~hengel/) and Dr. [Qinfeng (Javen) Shi](https://cs.adelaide.edu.au/~javen/).
+He completed his bachelor degree in Computer Science in 2010 at School of Computer Science and Engeering, Northwestern Polytechnical University, Xi’an, China, working with Prof.  [Yanning Zhang](http://teacher.nwpu.edu.cn/ynzhang.html) and Dr. [Zhonghua Fu](http://www.npu-aslp.org/gary/).
+=======
+Previously, he received a PhD in Computer Science from Northwestern Polytechnical University (Xi'an, ChinaNWPU) under the supervision of Prof. [Yanning Zhang](http://teacher.nwpu.edu.cn/ynzhang.html). During Nov. 2012 to Dec. 2014, he was a visiting student at Australian Centre for Visual Technologies, University of Adelaide, under the supervision of Prof. [Anton van den Hengel](https://cs.adelaide.edu.au/~hengel/) and Dr. [Qinfeng (Javen) Shi](https://cs.adelaide.edu.au/~javen/).
+He completed his bachelor degree in Computer Science in 2010 at School of Computer Science and Engineering, Northwestern Polytechnical University, Xi’an, China, working with Prof.  [Yanning Zhang](http://teacher.nwpu.edu.cn/ynzhang.html) and Dr. [Zhonghua Fu](http://www.npu-aslp.org/gary/).
+>>>>>>> 2d9d9adf8e33a5a188054d5deb8e937c157dea51
