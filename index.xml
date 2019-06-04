@@ -6,8 +6,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 02 May 2018 14:00:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2019 10:43:04 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Factor Graph Neural Network</title>
+      <link>https://zzhang.org/publication/fgnn/</link>
+      <pubDate>Tue, 04 Jun 2019 10:43:04 +0800</pubDate>
+      
+      <guid>https://zzhang.org/publication/fgnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factor Graph Neural Network</title>
+      <link>https://zzhang.org/project/fgnn/</link>
+      <pubDate>Tue, 04 Jun 2019 10:42:31 +0800</pubDate>
+      
+      <guid>https://zzhang.org/project/fgnn/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Most of the successful deep neural network architectures are structured, often consisting of elements like convolutional neural networks and gated recurrent neural networks. Recently, graph neural networks have been successfully applied to graph structured data such as point cloud and molecular data. These networks often only consider pairwise dependencies, as they operate on a graph structure. We generalize the graph neural network into a factor graph neural network (FGNN) in order to capture higher order dependencies. The FGNN is defined using two types of modules, the Variable-to-Factor (VF) module and the Factor-to-Variable (FV) module. These modules are combined into a layer, and the layers can be stacked together into an algorithm. We show that the FGNN is able to exactly parameterize the Max-Product Belief Propagation algorithm, which is widely used in finding approximate \map (MAP) assignment of a PGM. Thus, for situations where belief propagation gives best solutions, the FGNN can mimic the belief propagation procedure. This repo provides the code for testing FGNN on synthetic MAP inference problem and point cloud segmentation on real dataset.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://zzhang.org/img/FGNN.svg&#34; alt=&#34;FGNN&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;Available at &lt;a href=&#34;https://github.com/zzhang1987/Factor-Graph-Neural-Network&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+
+&lt;p&gt;The dataset for MAP Inference is at &lt;a href=&#34;https://drive.google.com/file/d/1Me9UeR8USxqg_SEE-ZstB2R8xHThOfqA/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;synthetic_data.tar.bz2&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;tech-report&#34;&gt;Tech Report&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;@misc{1906.00554,
+Author = {Zhen Zhang and Fan Wu and Wee Sun Lee},
+Title = {Factor Graph Neural Network},
+Year = {2019},
+Eprint = {arXiv:1906.00554},
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Convolutional Sequence to Sequence Model for Human Dynamics</title>

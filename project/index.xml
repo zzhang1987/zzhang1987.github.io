@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 10 Apr 2017 21:24:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2019 10:42:31 +0800</lastBuildDate>
     
 	<atom:link href="https://zzhang.org/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Factor Graph Neural Network</title>
+      <link>https://zzhang.org/project/fgnn/</link>
+      <pubDate>Tue, 04 Jun 2019 10:42:31 +0800</pubDate>
+      
+      <guid>https://zzhang.org/project/fgnn/</guid>
+      <description>Abstract Most of the successful deep neural network architectures are structured, often consisting of elements like convolutional neural networks and gated recurrent neural networks. Recently, graph neural networks have been successfully applied to graph structured data such as point cloud and molecular data. These networks often only consider pairwise dependencies, as they operate on a graph structure. We generalize the graph neural network into a factor graph neural network (FGNN) in order to capture higher order dependencies.</description>
+    </item>
     
     <item>
       <title>Graph Matching through Max-Weight Bipartite Belief Propagation</title>
