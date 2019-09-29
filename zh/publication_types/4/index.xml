@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Zhen Zhang</title>
+    <link>https://zzhang.org/zh/publication_types/4/</link>
+      <atom:link href="https://zzhang.org/zh/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Thu, 11 Apr 2013 07:46:41 +0800</lastBuildDate>
+    <image>
+      <url>https://zzhang.org/img/icon-192.png</url>
+      <title>4</title>
+      <link>https://zzhang.org/zh/publication_types/4/</link>
+    </image>
+    
+    <item>
+      <title>Constraint reduction using marginal polytope diagrams for MAP LP relaxations</title>
+      <link>https://zzhang.org/zh/publication/mrfcr/</link>
+      <pubDate>Thu, 11 Apr 2013 07:46:41 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/mrfcr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

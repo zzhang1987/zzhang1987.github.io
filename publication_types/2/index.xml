@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Zhen Zhang</title>
+    <link>https://zzhang.org/publication_types/2/</link>
+      <atom:link href="https://zzhang.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Nov 2016 07:53:15 +0800</lastBuildDate>
+    <image>
+      <url>https://zzhang.org/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://zzhang.org/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving</title>
+      <link>https://zzhang.org/publication/trackingyao/</link>
+      <pubDate>Fri, 11 Nov 2016 07:53:15 +0800</pubDate>
+      <guid>https://zzhang.org/publication/trackingyao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable Kernel Density Estimation Based Robust Regression And Its Applications</title>
+      <link>https://zzhang.org/publication/vkde/</link>
+      <pubDate>Fri, 11 Apr 2014 07:44:14 +0800</pubDate>
+      <guid>https://zzhang.org/publication/vkde/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

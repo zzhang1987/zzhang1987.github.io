@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Zhen Zhang</title>
+    <link>https://zzhang.org/zh/publication_types/1/</link>
+      <atom:link href="https://zzhang.org/zh/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 28 Sep 2019 21:28:05 +0800</lastBuildDate>
+    <image>
+      <url>https://zzhang.org/img/icon-192.png</url>
+      <title>1</title>
+      <link>https://zzhang.org/zh/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Deep Graphical Feature Learning for the Feature Matching Problem</title>
+      <link>https://zzhang.org/zh/publication/matchingiccv/</link>
+      <pubDate>Sat, 28 Sep 2019 21:28:05 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/matchingiccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factor Graph Neural Network</title>
+      <link>https://zzhang.org/zh/publication/fgnn/</link>
+      <pubDate>Tue, 04 Jun 2019 10:43:04 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/fgnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convolutional Sequence to Sequence Model for Human Dynamics</title>
+      <link>https://zzhang.org/zh/publication/humancvpr/</link>
+      <pubDate>Wed, 02 May 2018 14:00:20 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/humancvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching</title>
+      <link>https://zzhang.org/zh/publication/hmatching/</link>
+      <pubDate>Mon, 24 Apr 2017 18:35:03 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/hmatching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving Constrained Combinatorial Optimisation Problems Via MAP Inference Without High-order Penalties</title>
+      <link>https://zzhang.org/zh/publication/cmrf/</link>
+      <pubDate>Sun, 12 Feb 2017 16:31:20 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/cmrf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pairwise Matching through Max-Weight Bipartite Belief Propagation</title>
+      <link>https://zzhang.org/zh/publication/matching/</link>
+      <pubDate>Tue, 28 Jun 2016 21:28:05 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Probabilistic Matching Using m-Best Solutions</title>
+      <link>https://zzhang.org/zh/publication/jointmatching/</link>
+      <pubDate>Mon, 27 Jun 2016 21:47:17 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/jointmatching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Probabilistic Data Association Revisited</title>
+      <link>https://zzhang.org/zh/publication/jpda/</link>
+      <pubDate>Wed, 11 Nov 2015 07:28:02 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/jpda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Learning graph structure for multi-label image classification via clique generation</title>
+      <link>https://zzhang.org/zh/publication/learngraph/</link>
+      <pubDate>Thu, 11 Jun 2015 07:35:20 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/learngraph/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
