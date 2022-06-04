@@ -5,7 +5,7 @@
     <link>https://zzhang.org/publication/</link>
       <atom:link href="https://zzhang.org/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhen Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Sep 2019 21:28:05 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 Sep 2021 16:31:20 +0800</lastBuildDate>
     <image>
       <url>https://zzhang.org/img/icon-192.png</url>
       <title>Zhen Zhang</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
-      <title>Deep Graphical Feature Learning for the Feature Matching Problem</title>
-      <link>https://zzhang.org/publication/matchingiccv/</link>
-      <pubDate>Sat, 28 Sep 2019 21:28:05 +0800</pubDate>
-      <guid>https://zzhang.org/publication/matchingiccv/</guid>
+      <title>Memory-augmented Dynamic Neural Relational Inference</title>
+      <link>https://zzhang.org/publication/dgnr/</link>
+      <pubDate>Wed, 08 Sep 2021 16:31:20 +0800</pubDate>
+      <guid>https://zzhang.org/publication/dgnr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Factor Graph Neural Network</title>
       <link>https://zzhang.org/publication/fgnn/</link>
-      <pubDate>Tue, 04 Jun 2019 10:43:04 +0800</pubDate>
+      <pubDate>Fri, 25 Sep 2020 10:43:04 +0800</pubDate>
       <guid>https://zzhang.org/publication/fgnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Deep Gradient Descent Optimization for Image Deconvolution</title>
+      <link>https://zzhang.org/publication/learningtodeblur/</link>
+      <pubDate>Tue, 11 Feb 2020 16:31:20 +0800</pubDate>
+      <guid>https://zzhang.org/publication/learningtodeblur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Relationship Detection with Low Rank Non-Negative Tensor Decomposition</title>
+      <link>https://zzhang.org/publication/vrd_aaai/</link>
+      <pubDate>Fri, 22 Nov 2019 14:00:20 +0800</pubDate>
+      <guid>https://zzhang.org/publication/vrd_aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Graphical Feature Learning for the Feature Matching Problem</title>
+      <link>https://zzhang.org/publication/matchingiccv/</link>
+      <pubDate>Sat, 28 Sep 2019 21:28:05 +0800</pubDate>
+      <guid>https://zzhang.org/publication/matchingiccv/</guid>
       <description></description>
     </item>
     

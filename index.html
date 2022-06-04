@@ -85,7 +85,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.5846a303664ced5ef280902e91739da3.css">
+  <link rel="stylesheet" href="/css/academic.min.28517c7e0d1f126cbb9a9835de60f343.css">
 
   
 
@@ -123,7 +123,7 @@
   <meta property="og:description" content="Ph.D in Computer Science"><meta property="og:image" content="https://zzhang.org/img/icon-192.png">
   <meta property="twitter:image" content="https://zzhang.org/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-09-28T21:28:05&#43;08:00">
+    <meta property="og:updated_time" content="2021-09-08T16:31:20&#43;08:00">
   
 
   
@@ -131,7 +131,13 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite","url": "https://zzhang.org/"
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://zzhang.org/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://zzhang.org/"
 }
 </script>
 
@@ -169,7 +175,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -258,7 +265,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
         
@@ -287,7 +294,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
         </li>
 
         
@@ -329,6 +336,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -484,7 +495,7 @@
           
         
         <li>
-          <a href="https://twitter.com/zzhangnwpu" target="_blank" rel="noopener">
+          <a href="https://twitter.com/zzhangnpu" target="_blank" rel="noopener">
             <i class="fab fa-twitter big-icon"></i>
           </a>
         </li>
@@ -530,10 +541,10 @@
     
     <h1>Biography</h1>
 
-    <p>From Jul 2017 to Jul 2019, Zhen Zhang was a postdoctoral research fellow in the Department of Computer Science at the National University of Singapore under the supervision of Prof. <a href="https://www.comp.nus.edu.sg/~leews/" target="_blank">Lee Wee Sun</a>.
-Previously,
-he received a PhD in Computer Science from Northwestern Polytechnical University (Xi&rsquo;an, China) under the supervision of Prof. <a href="http://teacher.nwpu.edu.cn/ynzhang.html" target="_blank">Yanning Zhang</a>. During Nov. 2012 to Dec. 2014, he was a visiting student at Australian Centre for Visual Technologies, University of Adelaide, under the supervision of Prof. <a href="https://cs.adelaide.edu.au/~hengel/" target="_blank">Anton van den Hengel</a> and Dr. <a href="https://cs.adelaide.edu.au/~javen/" target="_blank">Qinfeng (Javen) Shi</a>.
-He completed his bachelor degree in Computer Science in 2010 at School of Computer Science and Engineering, Northwestern Polytechnical University, Xi’an, China, working with Prof.  <a href="http://teacher.nwpu.edu.cn/ynzhang.html" target="_blank">Yanning Zhang</a> and Dr. <a href="http://www.npu-aslp.org/gary/" target="_blank">Zhonghua Fu</a>.</p>
+    <p>Zhen Zhang is currently a Postdoctoral Researcher at the University of Adelaide, working with Prof. <a href="https://cs.adelaide.edu.au/~javen/">Qinfeng (Javen) Shi</a>.
+Previously, he was a postdoctoral research fellow in the Department of Computer Science at the National University of Singapore under the supervision of Prof. <a href="https://www.comp.nus.edu.sg/~leews/">Lee Wee Sun</a>.
+He received a PhD in Computer Science from Northwestern Polytechnical University (Xi&rsquo;an, China) under the supervision of Prof. <a href="http://teacher.nwpu.edu.cn/ynzhang.html">Yanning Zhang</a>. During Nov. 2012 to Dec. 2014, he was a visiting student at Australian Centre for Visual Technologies, University of Adelaide, under the supervision of Prof. <a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a> and Prof. <a href="https://cs.adelaide.edu.au/~javen/">Qinfeng (Javen) Shi</a>.
+He completed his bachelor degree in Computer Science in 2010 at School of Computer Science and Engineering, Northwestern Polytechnical University, Xi’an, China, working with Prof.  <a href="http://teacher.nwpu.edu.cn/ynzhang.html">Yanning Zhang</a> and Dr. <a href="http://www.npu-aslp.org/gary/">Zhonghua Fu</a>.</p>
 
 
     <div class="row">
@@ -685,10 +696,12 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 <div class="view-list-item">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/matchingiccv/" >Deep Graphical Feature Learning for the Feature Matching Problem</a>
+  <a href="/publication/dgnr/" >Memory-augmented Dynamic Neural Relational Inference</a>
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -696,11 +709,360 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/" target="_blank">Wee Sun Lee</a></span>
+  <span><a href="https://donggong1.github.io/">Dong Gong</a></span>, <span><a href="https://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://cs.adelaide.edu.au/~javen/">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">IEEE International Conference on Computer Vision (ICCV), 2021.,
+  </div>
+  
+  
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://donggong1.github.io/publications.html" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/fgnn/" >Factor Graph Neural Network</a>
+
+  
+
+
+  
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="https://github.com/kkkkahlua">Fan Wu</a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/">Wee Sun Lee</a></span>
+
+  </div>
+  
+
+  
+  <div class="article-metadata" style="color:#090;">NeurIPS 2020,
+  </div>
+  
+  
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://proceedings.neurips.cc/paper/2020/file/61c66a2f4e6e10dc9c16ddf9d19745d6-Paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="project/fgnn/" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/learningtodeblur/" >Learning Deep Gradient Descent Optimization for Image Deconvolution</a>
+
+  
+
+
+  
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="https://donggong1.github.io/">Dong Gong<!-- raw HTML omitted -->*<!-- raw HTML omitted --></a></span>, <span><a href="http://zzhang.org">Zhen Zhang<!-- raw HTML omitted -->*<!-- raw HTML omitted --></a></span>, <span><a href="http://cs.adelaide.edu.au/~javen/">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a></span>, <span><a href="https://cs.adelaide.edu.au/~chhshen/">Chunhua Shen</a></span>, <span>Yanning Zhang (* Equal contribution)</span>
+
+  </div>
+  
+
+  
+  <div class="article-metadata" style="color:#090;">IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2020. (Accepted),
+  </div>
+  
+  
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1804.03368.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/vrd_aaai/" >Visual Relationship Detection with Low Rank Non-Negative Tensor Decomposition</a>
+
+  
+
+
+  
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span>Mohammed Haroon Dupty</span>, <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/">Wee Sun Lee</a></span>
+
+  </div>
+  
+
+  
+  <div class="article-metadata" style="color:#090;">AAAI 2020,
+  </div>
+  
+  
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/HaroonAAAI20.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/matchingiccv/" >Deep Graphical Feature Learning for the Feature Matching Problem</a>
+
+  
+
+
+  
+  
+  <div class="article-metadata">
+    
+
+
+
+  
+  <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/">Wee Sun Lee</a></span>
+
+  </div>
+  
+
+  
+  <div class="article-metadata" style="color:#090;">In Proceedings of the International Conference on Computer Vision, 2019,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -790,92 +1152,12 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 <div class="view-list-item">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/publication/fgnn/" >Factor Graph Neural Network</a>
-
-  
-
-  
-  <div class="article-metadata">
-    
-
-
-
-  
-  <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="https://github.com/kkkkahlua" target="_blank">Fan Wu</a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/" target="_blank">Wee Sun Lee</a></span>
-
-  </div>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1906.00554.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="project/fgnn/" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  
-
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="view-list-item">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   <a href="/publication/humancvpr/" >Convolutional Sequence to Sequence Model for Human Dynamics</a>
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -883,11 +1165,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span>Chen Li<sup>*</sup></span>, <span><a href="http://zzhang.org" target="_blank">Zhen Zhang<sup>*</sup></a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/" target="_blank">Wee Sun Li</a></span>, <span><a href="https://sites.google.com/site/gimheelee/" target="_blank">Gim Hee Lee</a></span>
+  <span>Chen Li<!-- raw HTML omitted -->*<!-- raw HTML omitted --></span>, <span><a href="http://zzhang.org">Zhen Zhang<!-- raw HTML omitted -->*<!-- raw HTML omitted --></a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/">Wee Sun Lee</a></span>, <span><a href="https://sites.google.com/site/gimheelee/">Gim Hee Lee</a> (* Equal Contribution)</span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">IEEE Conference On Computer Vision and Pattern Recognition 2018,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -977,6 +1264,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -984,11 +1273,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="https://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="http://cseweb.ucsd.edu/~jmcauley/" target="_blank">Julian McAuley</a></span>, <span>Yong Li</span>, <span><a href="http://teacher.nwpu.edu.cn/weiwei.html" target="_blank">Wei Wei</a></span>, <span><a href="http://jszy.nwpu.edu.cn/ynzhang.html" target="_blank">Yanning Zhang</a></span>, <span><a href="https://cs.adelaide.edu.au/~javen/" target="_blank">Qinfeng Shi</a></span>
+  <span><a href="https://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a></span>, <span>Yong Li</span>, <span><a href="http://teacher.nwpu.edu.cn/weiwei.html">Wei Wei</a></span>, <span><a href="http://jszy.nwpu.edu.cn/ynzhang.html">Yanning Zhang</a></span>, <span><a href="https://cs.adelaide.edu.au/~javen/">Qinfeng Shi</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">In The 26th International Joint Conference on Artificial Intelligence (IJCAI-17),
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1067,6 +1361,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1074,11 +1370,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="http://cs.adelaide.edu.au/~javen/" target="_blank">Qinfeng Shi</a></span>, <span><a href="http://cseweb.ucsd.edu/~jmcauley/" target="_blank">Julian McAuley</a></span>, <span>Wei Wei</span>, <span>Yanning Zhang</span>, <span><a href="https://ruiyao.bitbucket.io" target="_blank">Rui Yao</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/" target="_blank">Anton van den Hengel</a></span>
+  <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://cs.adelaide.edu.au/~javen/">Qinfeng Shi</a></span>, <span><a href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a></span>, <span>Wei Wei</span>, <span>Yanning Zhang</span>, <span><a href="https://ruiyao.bitbucket.io">Rui Yao</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">Thirty-First AAAI Conference On Artificial Intelligence,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1168,6 +1469,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1175,11 +1478,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="https://ruiyao.bitbucket.io" target="_blank">Rui Yao</a></span>, <span>Shixiong Xia</span>, <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span>Yanning Zhang</span>
+  <span><a href="https://ruiyao.bitbucket.io">Rui Yao</a></span>, <span>Shixiong Xia</span>, <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span>Yanning Zhang</span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">IEEE Transactions on Multimedia. 2016,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1246,6 +1554,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1253,11 +1563,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="http://cs.adelaide.edu.au/~javen/" target="_blank">Qinfeng Shi</a></span>, <span><a href="http://cseweb.ucsd.edu/~jmcauley/" target="_blank">Julian McAuley</a></span>, <span>Wei Wei</span>, <span>Yanning Zhang</span>, <span><a href="https://cs.adelaide.edu.au/~hengel/" target="_blank">Anton van den Hengel</a></span>
+  <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://cs.adelaide.edu.au/~javen/">Qinfeng Shi</a></span>, <span><a href="http://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a></span>, <span>Wei Wei</span>, <span>Yanning Zhang</span>, <span><a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1355,6 +1670,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1362,11 +1679,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="https://scholar.google.com.hk/citations?user=VxAuxMwAAAAJ&amp;hl=en" target="_blank">Seyed H. Rezatofighi</a></span>, <span><a href="http://www.milanton.de" target="_blank">Anton Milan</a></span>, <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen" target="_blank">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~ard/" target="_blank">Anthony Dick</a></span>, <span><a href="https://cs.adelaide.edu.au/~ianr/" target="_blank">Ian Reid</a></span>
+  <span><a href="https://scholar.google.com.hk/citations?user=VxAuxMwAAAAJ&amp;hl=en">Seyed H. Rezatofighi</a></span>, <span><a href="http://www.milanton.de">Anton Milan</a></span>, <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~ard/">Anthony Dick</a></span>, <span><a href="https://cs.adelaide.edu.au/~ianr/">Ian Reid</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1449,6 +1771,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1456,11 +1780,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="https://scholar.google.com.hk/citations?user=VxAuxMwAAAAJ&amp;hl=en" target="_blank">Seyed H. Rezatofighi</a></span>, <span><a href="http://www.milanton.de" target="_blank">Anton Milan</a></span>, <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen" target="_blank">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~ard/" target="_blank">Anthony Dick</a></span>, <span><a href="https://cs.adelaide.edu.au/~ianr/" target="_blank">Ian Reid</a></span>
+  <span><a href="https://scholar.google.com.hk/citations?user=VxAuxMwAAAAJ&amp;hl=en">Seyed H. Rezatofighi</a></span>, <span><a href="http://www.milanton.de">Anton Milan</a></span>, <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~ard/">Anthony Dick</a></span>, <span><a href="https://cs.adelaide.edu.au/~ianr/">Ian Reid</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">In IEEE International Conference on Computer Vision, 2015,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1543,6 +1872,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1550,11 +1881,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="http://www.tanmingkui.com" target="_blank">Mingkui Tan</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen" target="_blank">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/" target="_blank">Anton van den Hengel</a></span>, <span><a href="http://cs.adelaide.edu.au/~chhshen/" target="_blank">Chunhua Shen</a></span>, <span><a href="http://csusap.csu.edu.au/~jbgao/" target="_blank">Junbin Gao</a></span>, <span>Fuyuan Hu</span>, <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>
+  <span><a href="http://www.tanmingkui.com">Mingkui Tan</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen">Qinfeng Shi</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a></span>, <span><a href="http://cs.adelaide.edu.au/~chhshen/">Chunhua Shen</a></span>, <span><a href="http://csusap.csu.edu.au/~jbgao/">Junbin Gao</a></span>, <span>Fuyuan Hu</span>, <span><a href="http://zzhang.org">Zhen Zhang</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2015,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1633,6 +1969,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1640,11 +1978,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span>Yanning Zhang</span>
+  <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span>Yanning Zhang</span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">Neuralcomputing,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -1705,6 +2048,8 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
   
 
+
+  
   
   <div class="article-metadata">
     
@@ -1712,11 +2057,16 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
 
   
-  <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen" target="_blank">Qinfeng Shi</a></span>, <span>Yanning Zhang</span>, <span><a href="http://cs.adelaide.edu.au/~chhshen/" target="_blank">Chunhua Shen</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/" target="_blank">Anton van den Hengel</a></span>
+  <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen">Qinfeng Shi</a></span>, <span>Yanning Zhang</span>, <span><a href="http://cs.adelaide.edu.au/~chhshen/">Chunhua Shen</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a></span>
 
   </div>
   
 
+  
+  <div class="article-metadata" style="color:#090;">arXiv preprint arXiv:1312.4637,
+  </div>
+  
+  
   
   <div class="btn-links">
     
@@ -2036,7 +2386,7 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
       
       <li>
         <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-        <a href="https://twitter.com/zzhangnwpu" target="_blank" rel="noopener">DM Me</a>
+        <a href="https://twitter.com/zzhangnpu" target="_blank" rel="noopener">DM Me</a>
       </li>
       
 
@@ -2090,11 +2440,46 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
     
 
     
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
@@ -2104,7 +2489,6 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
 
     
     
-
     
     
     
@@ -2112,12 +2496,12 @@ He completed his bachelor degree in Computer Science in 2010 at School of Comput
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.84d185001460a90007fb2f6dcc66616e.js"></script>
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
 
     
 

@@ -85,7 +85,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.5846a303664ced5ef280902e91739da3.css">
+  <link rel="stylesheet" href="/css/academic.min.28517c7e0d1f126cbb9a9835de60f343.css">
 
   
 
@@ -115,9 +115,9 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Zhen Zhang">
+  <meta property="og:site_name" content="张臻">
   <meta property="og:url" content="https://zzhang.org/zh/publication/humancvpr/">
-  <meta property="og:title" content="Convolutional Sequence to Sequence Model for Human Dynamics | Zhen Zhang">
+  <meta property="og:title" content="Convolutional Sequence to Sequence Model for Human Dynamics | 张臻">
   <meta property="og:description" content="Human motion modeling is a classic problem in computer vision and graphics. Challenges in modeling human motion include high dimensional prediction as well as extremely complicated dynamics.We present a novel approach to human motion modeling based on convolutional neural networks (CNN). The hierarchical structure of CNN makes it capable of capturing both spatial and temporal correlations effectively. In our proposed approach, a convolutional long-term encoder is used to encode the whole given motion sequence into a long-term hidden variable, which is used with a decoder to predict the remainder of the sequence. The decoder itself also has an encoder-decoder structure, in which the short-term encoder encodes a shorter sequence to a short-term hidden variable, and the spatial decoder maps the long and short-term hidden variable to motion predictions. By using such a model, we are able to capture both invariant and dynamic information of human motion, which results in more accurate predictions. Experiments show that our algorithm outperforms the state-of-the-art methods on the Human3.6M and CMU Motion Capture datasets."><meta property="og:image" content="https://zzhang.org/img/icon-192.png">
   <meta property="twitter:image" content="https://zzhang.org/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
   
@@ -162,7 +162,7 @@
   
   "publisher": {
     "@type": "Organization",
-    "name": "Zhen Zhang",
+    "name": "张臻",
     "logo": {
       "@type": "ImageObject",
       "url": "https://zzhang.org/img/icon-512.png"
@@ -186,7 +186,7 @@
 
 
 
-  <title>Convolutional Sequence to Sequence Model for Human Dynamics | Zhen Zhang</title>
+  <title>Convolutional Sequence to Sequence Model for Human Dynamics | 张臻</title>
 
 </head>
 
@@ -207,7 +207,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -228,7 +229,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/zh/">Zhen Zhang</a>
+      <a class="navbar-brand" href="/zh/">张臻</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
@@ -267,7 +268,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#about"><span>Home</span></a>
+          <a class="nav-link " href="/zh/#about"><span>主页</span></a>
         </li>
 
         
@@ -296,7 +297,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/zh/#publications"><span>发表论文</span></a>
         </li>
 
         
@@ -325,7 +326,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/zh/#projects"><span>项目</span></a>
         </li>
 
         
@@ -354,7 +355,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/zh/#contact"><span>联系方式</span></a>
         </li>
 
         
@@ -367,6 +368,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -441,7 +446,7 @@
 
 
   
-  <span>Chen Li<sup>*</sup></span>, <span><a href="http://zzhang.org" target="_blank">Zhen Zhang<sup>*</sup></a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/" target="_blank">Wee Sun Li</a></span>, <span><a href="https://sites.google.com/site/gimheelee/" target="_blank">Gim Hee Lee</a></span>
+  <span>Chen Li<!-- raw HTML omitted -->*<!-- raw HTML omitted --></span>, <span><a href="http://zzhang.org">Zhen Zhang<!-- raw HTML omitted -->*<!-- raw HTML omitted --></a></span>, <span><a href="https://www.comp.nus.edu.sg/~leews/">Wee Sun Lee</a></span>, <span><a href="https://sites.google.com/site/gimheelee/">Gim Hee Lee</a></span>
 
   </div>
   
@@ -764,11 +769,46 @@
     
 
     
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/zh/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
@@ -778,7 +818,6 @@
 
     
     
-
     
     
     
@@ -786,12 +825,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.84d185001460a90007fb2f6dcc66616e.js"></script>
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
 
     
 

@@ -83,7 +83,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.5846a303664ced5ef280902e91739da3.css">
+  <link rel="stylesheet" href="/css/academic.min.28517c7e0d1f126cbb9a9835de60f343.css">
 
   
 
@@ -157,7 +157,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -246,7 +247,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -275,7 +276,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
         </li>
 
         
@@ -318,6 +319,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -340,6 +345,10 @@
 
   
   
+  <form class="d-flex align-items-center mb-3">
+    <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  </form>
+  
 
   
 
@@ -351,25 +360,25 @@
   <h2>Latest</h2>
   <ul>
     
-      <li><a href="/publication/matchingiccv/">Deep Graphical Feature Learning for the Feature Matching Problem</a></li>
+      <li><a href="/publication/dgnr/">Memory-augmented Dynamic Neural Relational Inference</a></li>
     
       <li><a href="/publication/fgnn/">Factor Graph Neural Network</a></li>
+    
+      <li><a href="/publication/learningtodeblur/">Learning Deep Gradient Descent Optimization for Image Deconvolution</a></li>
+    
+      <li><a href="/publication/vrd_aaai/">Visual Relationship Detection with Low Rank Non-Negative Tensor Decomposition</a></li>
+    
+      <li><a href="/zh/publication/vrd_aaai/">Visual Relationship Detection with Low Rank Non-Negative Tensor Decomposition</a></li>
+    
+      <li><a href="/publication/matchingiccv/">Deep Graphical Feature Learning for the Feature Matching Problem</a></li>
+    
+      <li><a href="/zh/publication/matchingiccv/">Deep Graphical Feature Learning for the Feature Matching Problem</a></li>
+    
+      <li><a href="/zh/publication/fgnn/">Factor Graph Neural Network</a></li>
     
       <li><a href="/project/fgnn/">Factor Graph Neural Network</a></li>
     
       <li><a href="/publication/humancvpr/">Convolutional Sequence to Sequence Model for Human Dynamics</a></li>
-    
-      <li><a href="/publication/hmatching/">Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching</a></li>
-    
-      <li><a href="/project/matching/">Graph Matching through Max-Weight Bipartite Belief Propagation</a></li>
-    
-      <li><a href="/project/cmrf/">MAP Inference Over Constrained Markov Random Field</a></li>
-    
-      <li><a href="/publication/cmrf/">Solving Constrained Combinatorial Optimisation Problems Via MAP Inference Without High-order Penalties</a></li>
-    
-      <li><a href="/publication/trackingyao/">Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving</a></li>
-    
-      <li><a href="/publication/matching/">Pairwise Matching through Max-Weight Bipartite Belief Propagation</a></li>
     
   </ul>
   
@@ -414,11 +423,46 @@
     
 
     
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
@@ -428,7 +472,6 @@
 
     
     
-
     
     
     
@@ -436,12 +479,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.84d185001460a90007fb2f6dcc66616e.js"></script>
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
 
     
 

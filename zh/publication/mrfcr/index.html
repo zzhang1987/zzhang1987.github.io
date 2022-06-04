@@ -85,7 +85,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.5846a303664ced5ef280902e91739da3.css">
+  <link rel="stylesheet" href="/css/academic.min.28517c7e0d1f126cbb9a9835de60f343.css">
 
   
 
@@ -115,9 +115,9 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Zhen Zhang">
+  <meta property="og:site_name" content="张臻">
   <meta property="og:url" content="https://zzhang.org/zh/publication/mrfcr/">
-  <meta property="og:title" content="Constraint reduction using marginal polytope diagrams for MAP LP relaxations | Zhen Zhang">
+  <meta property="og:title" content="Constraint reduction using marginal polytope diagrams for MAP LP relaxations | 张臻">
   <meta property="og:description" content=""><meta property="og:image" content="https://zzhang.org/img/icon-192.png">
   <meta property="twitter:image" content="https://zzhang.org/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
   
@@ -162,7 +162,7 @@
   
   "publisher": {
     "@type": "Organization",
-    "name": "Zhen Zhang",
+    "name": "张臻",
     "logo": {
       "@type": "ImageObject",
       "url": "https://zzhang.org/img/icon-512.png"
@@ -186,7 +186,7 @@
 
 
 
-  <title>Constraint reduction using marginal polytope diagrams for MAP LP relaxations | Zhen Zhang</title>
+  <title>Constraint reduction using marginal polytope diagrams for MAP LP relaxations | 张臻</title>
 
 </head>
 
@@ -207,7 +207,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -228,7 +229,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/zh/">Zhen Zhang</a>
+      <a class="navbar-brand" href="/zh/">张臻</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
@@ -267,7 +268,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#about"><span>Home</span></a>
+          <a class="nav-link " href="/zh/#about"><span>主页</span></a>
         </li>
 
         
@@ -296,7 +297,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/zh/#publications"><span>发表论文</span></a>
         </li>
 
         
@@ -325,7 +326,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/zh/#projects"><span>项目</span></a>
         </li>
 
         
@@ -354,7 +355,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/zh/#contact"><span>联系方式</span></a>
         </li>
 
         
@@ -367,6 +368,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -441,7 +446,7 @@
 
 
   
-  <span><a href="http://zzhang.org" target="_blank">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen" target="_blank">Qinfeng Shi</a></span>, <span>Yanning Zhang</span>, <span><a href="http://cs.adelaide.edu.au/~chhshen/" target="_blank">Chunhua Shen</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/" target="_blank">Anton van den Hengel</a></span>
+  <span><a href="http://zzhang.org">Zhen Zhang</a></span>, <span><a href="http://www.cs.adelaide.edu.au/~javen">Qinfeng Shi</a></span>, <span>Yanning Zhang</span>, <span><a href="http://cs.adelaide.edu.au/~chhshen/">Chunhua Shen</a></span>, <span><a href="https://cs.adelaide.edu.au/~hengel/">Anton van den Hengel</a></span>
 
   </div>
   
@@ -733,11 +738,46 @@
     
 
     
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/zh/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
@@ -747,7 +787,6 @@
 
     
     
-
     
     
     
@@ -755,12 +794,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.84d185001460a90007fb2f6dcc66616e.js"></script>
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
 
     
 

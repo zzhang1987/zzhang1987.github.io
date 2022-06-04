@@ -17,32 +17,21 @@
       <link>https://zzhang.org/project/fgnn/</link>
       <pubDate>Tue, 04 Jun 2019 10:42:31 +0800</pubDate>
       <guid>https://zzhang.org/project/fgnn/</guid>
-      <description>
-
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Most of the successful deep neural network architectures are structured, often consisting of elements like convolutional neural networks and gated recurrent neural networks. Recently, graph neural networks have been successfully applied to graph structured data such as point cloud and molecular data. These networks often only consider pairwise dependencies, as they operate on a graph structure. We generalize the graph neural network into a factor graph neural network (FGNN) in order to capture higher order dependencies. The FGNN is defined using two types of modules, the Variable-to-Factor (VF) module and the Factor-to-Variable (FV) module. These modules are combined into a layer, and the layers can be stacked together into an algorithm. We show that the FGNN is able to exactly parameterize the Max-Product Belief Propagation algorithm, which is widely used in finding approximate \map (MAP) assignment of a PGM. Thus, for situations where belief propagation gives best solutions, the FGNN can mimic the belief propagation procedure. This repo provides the code for testing FGNN on synthetic MAP inference problem and point cloud segmentation on real dataset.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://zzhang.org/img/FGNN.svg&#34; alt=&#34;FGNN&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://zzhang.org/img/FGNN.svg&#34; alt=&#34;FGNN&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;Available at &lt;a href=&#34;https://github.com/zzhang1987/Factor-Graph-Neural-Network&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Available at &lt;a href=&#34;https://github.com/zzhang1987/Factor-Graph-Neural-Network&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
-
-&lt;p&gt;The dataset for MAP Inference is at &lt;a href=&#34;https://drive.google.com/file/d/1Me9UeR8USxqg_SEE-ZstB2R8xHThOfqA/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;synthetic_data.tar.bz2&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;The dataset for MAP Inference is at &lt;a href=&#34;https://drive.google.com/file/d/1Me9UeR8USxqg_SEE-ZstB2R8xHThOfqA/view?usp=sharing&#34;&gt;synthetic_data.tar.bz2&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;tech-report&#34;&gt;Tech Report&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code&gt;@misc{1906.00554,
 Author = {Zhen Zhang and Fan Wu and Wee Sun Lee},
 Title = {Factor Graph Neural Network},
 Year = {2019},
 Eprint = {arXiv:1906.00554},
 }
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -50,39 +39,15 @@ Eprint = {arXiv:1906.00554},
       <link>https://zzhang.org/project/matching/</link>
       <pubDate>Mon, 10 Apr 2017 21:24:02 +0800</pubDate>
       <guid>https://zzhang.org/project/matching/</guid>
-      <description>
-
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Graph matching is a key problem in computer vision and pattern recognition. One way to encode the essential interdependence between potential feature matches is to cast the problem as inference in a graphical model (pairwise model for graph matching and higher-order for hyper graph matching problems). Though recently alternatives such as spectral methods, multt-linear relaxations, or approaches based on the convex-concave procedure have achieved the state-of-the-art. In this project,
- we revisit the use of graphical models for feature matching, and propose a belief propagation scheme which exhibits the following advantages: (1) we explicitly enforce one-to-one matching constraints; (2) we offer a tighter relaxation of the original cost function than previous graphical-model-based approaches;  (3) our sub-problems decompose into max-weight bipartite matching, which can be solved efficiently, leading to orders-of-magnitude reductions in execution time; (4) for hyper-graph matching problem, the dynamic programming technique can be used to further accelerate the algorithm. Experimental results show that the proposed algorithm produces results superior to those of the current state-of-the-art.&lt;/p&gt;
-
+we revisit the use of graphical models for feature matching, and propose a belief propagation scheme which exhibits the following advantages: (1) we explicitly enforce one-to-one matching constraints; (2) we offer a tighter relaxation of the original cost function than previous graphical-model-based approaches;  (3) our sub-problems decompose into max-weight bipartite matching, which can be solved efficiently, leading to orders-of-magnitude reductions in execution time; (4) for hyper-graph matching problem, the dynamic programming technique can be used to further accelerate the algorithm. Experimental results show that the proposed algorithm produces results superior to those of the current state-of-the-art.&lt;/p&gt;
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;The code for pairwise matching is avaible from &lt;a href=&#34;https://github.com/zzhang1987/HungarianBP&#34; target=&#34;_blank&#34;&gt;HungarianBP&lt;/a&gt;.
-The code for higher order matching is avaible from &lt;a href=&#34;https://github.com/zzhang1987/HyperGraphMatchingBP&#34; target=&#34;_blank&#34;&gt;HyperBP&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;The code for pairwise matching is avaible from &lt;a href=&#34;https://github.com/zzhang1987/HungarianBP&#34;&gt;HungarianBP&lt;/a&gt;.
+The code for higher order matching is avaible from &lt;a href=&#34;https://github.com/zzhang1987/HyperGraphMatchingBP&#34;&gt;HyperBP&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
-
-&lt;p&gt;&lt;li itemscope=&#34;&#34; itemtype=&#34;http://schema.org/CreativeWork&#34;&gt;
-&lt;i class=&#34;fa-li fa fa-file-text-o pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-&lt;span itemprop=&#34;name&#34;&gt;
-&lt;a href=&#34;https://zzhang.org/publication/matching/&#34; target=&#34;_blank&#34;&gt;Pairwise Matching through Max-Weight Bipartite Belief Propagation&lt;/a&gt;&lt;/span&gt;
-&lt;div class=&#34;pub-authors-list&#34; itemprop=&#34;author&#34;&gt;
-&lt;a href=&#34;https://zzhang.org&#34; target=&#34;_blank&#34;&gt;Zhen Zhang&lt;/a&gt;, &lt;a href=&#34;http://cs.adelaide.edu.au/~javen/&#34; target=&#34;_blank&#34;&gt;Qinfeng Shi&lt;/a&gt;, &lt;a href=&#34;http://cseweb.ucsd.edu/~jmcauley/&#34; target=&#34;_blank&#34;&gt;Julian McAuley&lt;/a&gt;, Wei Wei, Yanning Zhang and &lt;a href=&#34;https://cs.adelaide.edu.au/~hengel/&#34; target=&#34;_blank&#34;&gt;Anton van den Hengel&lt;/a&gt;&lt;/div&gt;
-&lt;div class=&#34;pub-publication&#34;&gt;
-In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016
-&lt;/div&gt;&lt;/li&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;li itemscope=&#34;&#34; itemtype=&#34;http://schema.org/CreativeWork&#34;&gt;
-&lt;i class=&#34;fa-li fa fa-file-text-o pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
-&lt;span itemprop=&#34;name&#34;&gt;
-&lt;a href=&#34;https://zzhang.org/publication/hmatching/&#34; target=&#34;_blank&#34;&gt;Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching&lt;/a&gt;&lt;/span&gt;
-&lt;div class=&#34;pub-authors-list&#34; itemprop=&#34;author&#34;&gt;
-&lt;a href=&#34;https://zzhang.org&#34; target=&#34;_blank&#34;&gt;Zhen Zhang&lt;/a&gt;, &lt;a href=&#34;http://cseweb.ucsd.edu/~jmcauley/&#34; target=&#34;_blank&#34;&gt;Julian McAuley&lt;/a&gt;, Yong Li, Wei Wei, Yanning Zhang and  &lt;a href=&#34;http://cs.adelaide.edu.au/~javen/&#34; target=&#34;_blank&#34;&gt;Qinfeng Shi&lt;/a&gt;&lt;/div&gt;
-&lt;div class=&#34;pub-publication&#34;&gt;
- In The 26th International Joint Conference on Artificial Intelligence (IJCAI-17)&lt;br /&gt;
-&lt;/div&gt;&lt;/li&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     

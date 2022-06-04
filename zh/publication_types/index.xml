@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | Zhen Zhang</title>
+    <title>Publication_types | 张臻</title>
     <link>https://zzhang.org/zh/publication_types/</link>
       <atom:link href="https://zzhang.org/zh/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 28 Sep 2019 21:28:05 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Fri, 22 Nov 2019 14:00:20 +0800</lastBuildDate>
     <image>
       <url>https://zzhang.org/img/icon-192.png</url>
       <title>Publication_types</title>
       <link>https://zzhang.org/zh/publication_types/</link>
     </image>
-    
-    <item>
-      <title>1</title>
-      <link>https://zzhang.org/zh/publication_types/1/</link>
-      <pubDate>Sat, 28 Sep 2019 21:28:05 +0800</pubDate>
-      <guid>https://zzhang.org/zh/publication_types/1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2</title>
-      <link>https://zzhang.org/zh/publication_types/2/</link>
-      <pubDate>Fri, 11 Nov 2016 07:53:15 +0800</pubDate>
-      <guid>https://zzhang.org/zh/publication_types/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4</title>
-      <link>https://zzhang.org/zh/publication_types/4/</link>
-      <pubDate>Thu, 11 Apr 2013 07:46:41 +0800</pubDate>
-      <guid>https://zzhang.org/zh/publication_types/4/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

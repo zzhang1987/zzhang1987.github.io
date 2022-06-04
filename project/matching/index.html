@@ -31,6 +31,8 @@
   <meta name="description" content="Abstract Graph matching is a key problem in computer vision and pattern recognition. One way to encode the essential interdependence between potential feature matches is to cast the problem as inference in a graphical model (pairwise model for graph matching and higher-order for hyper graph matching problems). Though recently alternatives such as spectral methods, multt-linear relaxations, or approaches based on the convex-concave procedure have achieved the state-of-the-art. In this project, we revisit the use of graphical models for feature matching, and propose a belief propagation scheme which exhibits the following advantages: (1) we explicitly enforce one-to-one matching constraints; (2) we offer a tighter relaxation of the original cost function than previous graphical-model-based approaches; (3) our sub-problems decompose into max-weight bipartite matching, which can be solved efficiently, leading to orders-of-magnitude reductions in execution time; (4) for hyper-graph matching problem, the dynamic programming technique can be used to further accelerate the algorithm.">
 
   
+  <link rel="alternate" hreflang="zh" href="https://zzhang.org/zh/project/matching/">
+  
   <link rel="alternate" hreflang="en-us" href="https://zzhang.org/project/matching/">
 
   
@@ -83,7 +85,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.5846a303664ced5ef280902e91739da3.css">
+  <link rel="stylesheet" href="/css/academic.min.28517c7e0d1f126cbb9a9835de60f343.css">
 
   
 
@@ -205,7 +207,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -294,7 +297,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -323,7 +326,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
         </li>
 
         
@@ -366,7 +369,26 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i><span>English</span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://zzhang.org/zh/project/matching/">
+                <span>中文 (简体)</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
         
 
         
@@ -552,39 +574,15 @@
   <div class="article-container">
 
     <div class="article-style">
-      
-
-<h2 id="abstract">Abstract</h2>
-
+      <h2 id="abstract">Abstract</h2>
 <p>Graph matching is a key problem in computer vision and pattern recognition. One way to encode the essential interdependence between potential feature matches is to cast the problem as inference in a graphical model (pairwise model for graph matching and higher-order for hyper graph matching problems). Though recently alternatives such as spectral methods, multt-linear relaxations, or approaches based on the convex-concave procedure have achieved the state-of-the-art. In this project,
- we revisit the use of graphical models for feature matching, and propose a belief propagation scheme which exhibits the following advantages: (1) we explicitly enforce one-to-one matching constraints; (2) we offer a tighter relaxation of the original cost function than previous graphical-model-based approaches;  (3) our sub-problems decompose into max-weight bipartite matching, which can be solved efficiently, leading to orders-of-magnitude reductions in execution time; (4) for hyper-graph matching problem, the dynamic programming technique can be used to further accelerate the algorithm. Experimental results show that the proposed algorithm produces results superior to those of the current state-of-the-art.</p>
-
+we revisit the use of graphical models for feature matching, and propose a belief propagation scheme which exhibits the following advantages: (1) we explicitly enforce one-to-one matching constraints; (2) we offer a tighter relaxation of the original cost function than previous graphical-model-based approaches;  (3) our sub-problems decompose into max-weight bipartite matching, which can be solved efficiently, leading to orders-of-magnitude reductions in execution time; (4) for hyper-graph matching problem, the dynamic programming technique can be used to further accelerate the algorithm. Experimental results show that the proposed algorithm produces results superior to those of the current state-of-the-art.</p>
 <h2 id="code">Code</h2>
-
-<p>The code for pairwise matching is avaible from <a href="https://github.com/zzhang1987/HungarianBP" target="_blank">HungarianBP</a>.
-The code for higher order matching is avaible from <a href="https://github.com/zzhang1987/HyperGraphMatchingBP" target="_blank">HyperBP</a>.</p>
-
+<p>The code for pairwise matching is avaible from <a href="https://github.com/zzhang1987/HungarianBP">HungarianBP</a>.
+The code for higher order matching is avaible from <a href="https://github.com/zzhang1987/HyperGraphMatchingBP">HyperBP</a>.</p>
 <h2 id="publication">Publication</h2>
-
-<p><li itemscope="" itemtype="http://schema.org/CreativeWork">
-<i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-<span itemprop="name">
-<a href="https://zzhang.org/publication/matching/" target="_blank">Pairwise Matching through Max-Weight Bipartite Belief Propagation</a></span>
-<div class="pub-authors-list" itemprop="author">
-<a href="https://zzhang.org" target="_blank">Zhen Zhang</a>, <a href="http://cs.adelaide.edu.au/~javen/" target="_blank">Qinfeng Shi</a>, <a href="http://cseweb.ucsd.edu/~jmcauley/" target="_blank">Julian McAuley</a>, Wei Wei, Yanning Zhang and <a href="https://cs.adelaide.edu.au/~hengel/" target="_blank">Anton van den Hengel</a></div>
-<div class="pub-publication">
-In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016
-</div></li></p>
-
-<p><li itemscope="" itemtype="http://schema.org/CreativeWork">
-<i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-<span itemprop="name">
-<a href="https://zzhang.org/publication/hmatching/" target="_blank">Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching</a></span>
-<div class="pub-authors-list" itemprop="author">
-<a href="https://zzhang.org" target="_blank">Zhen Zhang</a>, <a href="http://cseweb.ucsd.edu/~jmcauley/" target="_blank">Julian McAuley</a>, Yong Li, Wei Wei, Yanning Zhang and  <a href="http://cs.adelaide.edu.au/~javen/" target="_blank">Qinfeng Shi</a></div>
-<div class="pub-publication">
- In The 26th International Joint Conference on Artificial Intelligence (IJCAI-17)<br />
-</div></li></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
     </div>
 
@@ -654,7 +652,7 @@ In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
       
     
     <li>
-      <a href="https://twitter.com/zzhangnwpu" target="_blank" rel="noopener">
+      <a href="https://twitter.com/zzhangnpu" target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
@@ -765,11 +763,46 @@ In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
     
 
     
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
@@ -779,7 +812,6 @@ In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
 
     
     
-
     
     
     
@@ -787,12 +819,12 @@ In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.84d185001460a90007fb2f6dcc66616e.js"></script>
+    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
 
     
 

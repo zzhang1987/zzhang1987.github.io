@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zhen Zhang</title>
+    <title>张臻</title>
     <link>https://zzhang.org/zh/publication/</link>
       <atom:link href="https://zzhang.org/zh/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Zhen Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 28 Sep 2019 21:28:05 +0800</lastBuildDate>
+    <description>张臻</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Fri, 22 Nov 2019 14:00:20 +0800</lastBuildDate>
     <image>
       <url>https://zzhang.org/img/icon-192.png</url>
-      <title>Zhen Zhang</title>
+      <title>张臻</title>
       <link>https://zzhang.org/zh/publication/</link>
     </image>
+    
+    <item>
+      <title>Visual Relationship Detection with Low Rank Non-Negative Tensor Decomposition</title>
+      <link>https://zzhang.org/zh/publication/vrd_aaai/</link>
+      <pubDate>Fri, 22 Nov 2019 14:00:20 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/vrd_aaai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Graphical Feature Learning for the Feature Matching Problem</title>
