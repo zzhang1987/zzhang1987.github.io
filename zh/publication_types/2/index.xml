@@ -5,12 +5,20 @@
     <link>https://zzhang.org/zh/publication_types/2/</link>
       <atom:link href="https://zzhang.org/zh/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Fri, 11 Nov 2016 07:53:15 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 11 Feb 2020 16:31:20 +0800</lastBuildDate>
     <image>
       <url>https://zzhang.org/img/icon-192.png</url>
       <title>2</title>
       <link>https://zzhang.org/zh/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Learning Deep Gradient Descent Optimization for Image Deconvolution</title>
+      <link>https://zzhang.org/zh/publication/learningtodeblur/</link>
+      <pubDate>Tue, 11 Feb 2020 16:31:20 +0800</pubDate>
+      <guid>https://zzhang.org/zh/publication/learningtodeblur/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Real-time Correlation Filter Tracking by Efficient Dense Belief Propagation with Structure Preserving</title>

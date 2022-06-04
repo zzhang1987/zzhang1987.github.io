@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://zzhang.org/zh/publication/</loc>
-    <lastmod>2019-11-22T14:00:20+08:00</lastmod>
+    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -20,7 +20,7 @@
   
   <url>
     <loc>https://zzhang.org/zh/publication_types/1/</loc>
-    <lastmod>2019-11-22T14:00:20+08:00</lastmod>
+    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,8 +34,23 @@
   </url>
   
   <url>
+    <loc>https://zzhang.org/zh/publication/dgnr/</loc>
+    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication/dgnr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication/dgnr/"
+                />
+  </url>
+  
+  <url>
     <loc>https://zzhang.org/zh/publication_types/</loc>
-    <lastmod>2019-11-22T14:00:20+08:00</lastmod>
+    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,6 +60,66 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zzhang.org/zh/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/</loc>
+    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/publication/fgnn/</loc>
+    <lastmod>2020-09-25T10:43:04+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication/fgnn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication/fgnn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/publication_types/2/</loc>
+    <lastmod>2020-02-11T16:31:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication_types/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication_types/2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/publication/learningtodeblur/</loc>
+    <lastmod>2020-02-11T16:31:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication/learningtodeblur/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication/learningtodeblur/"
                 />
   </url>
   
@@ -64,21 +139,6 @@
   </url>
   
   <url>
-    <loc>https://zzhang.org/zh/</loc>
-    <lastmod>2019-11-22T14:00:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zzhang.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zzhang.org/zh/"
-                />
-  </url>
-  
-  <url>
     <loc>https://zzhang.org/zh/publication/matchingiccv/</loc>
     <lastmod>2019-09-28T21:28:05+08:00</lastmod>
     <xhtml:link
@@ -90,21 +150,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zzhang.org/zh/publication/matchingiccv/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/fgnn/</loc>
-    <lastmod>2019-06-04T10:43:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zzhang.org/publication/fgnn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zzhang.org/zh/publication/fgnn/"
                 />
   </url>
   
@@ -210,21 +255,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zzhang.org/zh/publication/cmrf/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication_types/2/</loc>
-    <lastmod>2016-11-11T07:53:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zzhang.org/publication_types/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zzhang.org/zh/publication_types/2/"
                 />
   </url>
   

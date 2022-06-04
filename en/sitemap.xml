@@ -36,6 +36,16 @@
   <url>
     <loc>https://zzhang.org/publication/dgnr/</loc>
     <lastmod>2021-09-08T16:31:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication/dgnr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication/dgnr/"
+                />
   </url>
   
   <url>
@@ -101,11 +111,16 @@
   <url>
     <loc>https://zzhang.org/publication/learningtodeblur/</loc>
     <lastmod>2020-02-11T16:31:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/</loc>
-    <lastmod>2019-11-22T14:00:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication/learningtodeblur/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication/learningtodeblur/"
+                />
   </url>
   
   <url>
@@ -124,16 +139,6 @@
   </url>
   
   <url>
-    <loc>https://zzhang.org/zh/publication/vrd_aaai/</loc>
-    <lastmod>2019-11-22T14:00:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/</loc>
-    <lastmod>2019-11-22T14:00:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zzhang.org/publication/matchingiccv/</loc>
     <lastmod>2019-09-28T21:28:05+08:00</lastmod>
     <xhtml:link
@@ -146,16 +151,6 @@
                 hreflang="en"
                 href="https://zzhang.org/publication/matchingiccv/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/matchingiccv/</loc>
-    <lastmod>2019-09-28T21:28:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/fgnn/</loc>
-    <lastmod>2019-06-04T10:43:04+08:00</lastmod>
   </url>
   
   <url>
@@ -204,11 +199,6 @@
   </url>
   
   <url>
-    <loc>https://zzhang.org/zh/publication/humancvpr/</loc>
-    <lastmod>2018-05-02T14:00:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zzhang.org/publication/hmatching/</loc>
     <lastmod>2017-04-24T18:35:03+08:00</lastmod>
     <xhtml:link
@@ -221,11 +211,6 @@
                 hreflang="en"
                 href="https://zzhang.org/publication/hmatching/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/hmatching/</loc>
-    <lastmod>2017-04-24T18:35:03+08:00</lastmod>
   </url>
   
   <url>
@@ -245,6 +230,11 @@
   
   <url>
     <loc>https://zzhang.org/zh/project/matching/</loc>
+    <lastmod>2017-04-10T21:24:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/</loc>
     <lastmod>2017-04-10T21:24:02+08:00</lastmod>
   </url>
   
@@ -284,11 +274,6 @@
   </url>
   
   <url>
-    <loc>https://zzhang.org/zh/publication/cmrf/</loc>
-    <lastmod>2017-02-12T16:31:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zzhang.org/publication/trackingyao/</loc>
     <lastmod>2016-11-11T07:53:15+08:00</lastmod>
     <xhtml:link
@@ -301,11 +286,6 @@
                 hreflang="en"
                 href="https://zzhang.org/publication/trackingyao/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/trackingyao/</loc>
-    <lastmod>2016-11-11T07:53:15+08:00</lastmod>
   </url>
   
   <url>
@@ -324,11 +304,6 @@
   </url>
   
   <url>
-    <loc>https://zzhang.org/zh/publication/matching/</loc>
-    <lastmod>2016-06-28T21:28:05+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zzhang.org/publication/jointmatching/</loc>
     <lastmod>2016-06-27T21:47:17+08:00</lastmod>
     <xhtml:link
@@ -341,11 +316,6 @@
                 hreflang="en"
                 href="https://zzhang.org/publication/jointmatching/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/jointmatching/</loc>
-    <lastmod>2016-06-27T21:47:17+08:00</lastmod>
   </url>
   
   <url>
@@ -364,11 +334,6 @@
   </url>
   
   <url>
-    <loc>https://zzhang.org/zh/publication/jpda/</loc>
-    <lastmod>2015-11-11T07:28:02+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zzhang.org/publication/learngraph/</loc>
     <lastmod>2015-06-11T07:35:20+08:00</lastmod>
     <xhtml:link
@@ -384,11 +349,6 @@
   </url>
   
   <url>
-    <loc>https://zzhang.org/zh/publication/learngraph/</loc>
-    <lastmod>2015-06-11T07:35:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zzhang.org/publication/vkde/</loc>
     <lastmod>2014-04-11T07:44:14+08:00</lastmod>
     <xhtml:link
@@ -401,11 +361,6 @@
                 hreflang="en"
                 href="https://zzhang.org/publication/vkde/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/vkde/</loc>
-    <lastmod>2014-04-11T07:44:14+08:00</lastmod>
   </url>
   
   <url>
@@ -436,11 +391,6 @@
                 hreflang="en"
                 href="https://zzhang.org/publication/mrfcr/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication/mrfcr/</loc>
-    <lastmod>2013-04-11T07:46:41+08:00</lastmod>
   </url>
   
   <url>
