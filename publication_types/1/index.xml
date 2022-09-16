@@ -5,12 +5,20 @@
     <link>https://zzhang.org/publication_types/1/</link>
       <atom:link href="https://zzhang.org/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 Sep 2021 16:31:20 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Sep 2022 16:06:04 +0930</lastBuildDate>
     <image>
       <url>https://zzhang.org/img/icon-192.png</url>
       <title>1</title>
       <link>https://zzhang.org/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Truncated Matrix Power Iteration for Differentiable DAG Learning</title>
+      <link>https://zzhang.org/publication/tmpi/</link>
+      <pubDate>Thu, 15 Sep 2022 16:06:04 +0930</pubDate>
+      <guid>https://zzhang.org/publication/tmpi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Memory-augmented Dynamic Neural Relational Inference</title>

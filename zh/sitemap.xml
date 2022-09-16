@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://zzhang.org/zh/publication/</loc>
-    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
+    <lastmod>2022-09-15T16:06:04+09:30</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -20,7 +20,7 @@
   
   <url>
     <loc>https://zzhang.org/zh/publication_types/1/</loc>
-    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
+    <lastmod>2022-09-15T16:06:04+09:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,6 +30,51 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zzhang.org/zh/publication_types/1/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/publication_types/</loc>
+    <lastmod>2022-09-15T16:06:04+09:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/publication/tmpi/</loc>
+    <lastmod>2022-09-15T16:06:04+09:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/publication/tmpi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/publication/tmpi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zzhang.org/zh/</loc>
+    <lastmod>2022-09-15T16:06:04+09:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zzhang.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zzhang.org/zh/"
                 />
   </url>
   
@@ -45,36 +90,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zzhang.org/zh/publication/dgnr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/publication_types/</loc>
-    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zzhang.org/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zzhang.org/zh/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zzhang.org/zh/</loc>
-    <lastmod>2021-09-08T16:31:20+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zzhang.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zzhang.org/zh/"
                 />
   </url>
   
