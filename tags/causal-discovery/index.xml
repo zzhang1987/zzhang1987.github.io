@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Causal Discovery | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/causal-discovery/</link>
+      <atom:link href="https://example.com/tags/causal-discovery/index.xml" rel="self" type="application/rss+xml" />
+    <description>Causal Discovery</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Causal Discovery</title>
+      <link>https://example.com/tags/causal-discovery/</link>
+    </image>
+    
+    <item>
+      <title>Latent Causal Discovery in Reinforcement Learning and Large Language Models</title>
+      <link>https://example.com/project/latent_causal_discovery/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/latent_causal_discovery/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Latent causal discovery seeks to uncover &lt;strong&gt;hidden causal mechanisms&lt;/strong&gt; in data where the true causal variables are &lt;strong&gt;unobserved&lt;/strong&gt;. Our research develops &lt;strong&gt;theoretical foundations and practical algorithms&lt;/strong&gt; for identifying latent causal structures, particularly in &lt;strong&gt;reinforcement learning (RL)&lt;/strong&gt; and &lt;strong&gt;large language models (LLMs)&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
+&lt;h3 id=&#34;causal-reinforcement-learning&#34;&gt;Causal Reinforcement Learning&lt;/h3&gt;
+&lt;p&gt;In RL, learning &lt;strong&gt;disentangled causal state representations&lt;/strong&gt; is crucial for robust decision-making, generalization, and transfer learning. Our work challenges traditional assumptions and redefines state disentanglement through &lt;strong&gt;causal constraints and interventions&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rethinking State Disentanglement in Causal RL&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Proposing a new framework for &lt;strong&gt;interpretable and robust&lt;/strong&gt; state representations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Silver Linings: When Distribution Shifts Enhance Identifiability&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Investigating &lt;strong&gt;favorable shifts&lt;/strong&gt; that improve latent variable identifiability in RL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;causal-representation-learning-in-large-language-models&#34;&gt;Causal Representation Learning in Large Language Models&lt;/h3&gt;
+&lt;p&gt;Do &lt;strong&gt;LLMs&lt;/strong&gt; learn meaningful &lt;strong&gt;causal representations&lt;/strong&gt;? We analyze whether next-token prediction is sufficient for learning &lt;strong&gt;human-interpretable causal concepts&lt;/strong&gt; and propose methods to &lt;strong&gt;enhance causal learning&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;I Predict Therefore I Am&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Examining whether &lt;strong&gt;transformer-based&lt;/strong&gt; models implicitly encode causal structures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identifiable Latent Polynomial Causal Models&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Leveraging &lt;strong&gt;distribution changes&lt;/strong&gt; to identify latent causal factors in LLMs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;p&gt;🚀 &lt;strong&gt;AI for Science&lt;/strong&gt; – Improving interpretability and robustness in &lt;strong&gt;scientific AI applications&lt;/strong&gt;.&lt;br&gt;
+🤖 &lt;strong&gt;Autonomous Systems&lt;/strong&gt; – Enabling &lt;strong&gt;RL agents&lt;/strong&gt; to adapt to dynamic environments.&lt;br&gt;
+⚖️ &lt;strong&gt;Fair &amp;amp; Robust AI&lt;/strong&gt; – Reducing bias by ensuring models &lt;strong&gt;learn true causal relationships&lt;/strong&gt; rather than spurious correlations.&lt;/p&gt;
+&lt;h2 id=&#34;selected-publications&#34;&gt;Selected Publications&lt;/h2&gt;
+&lt;p&gt;📄 &lt;strong&gt;ICLR 2024&lt;/strong&gt; – Identifiable Latent Polynomial Causal Models Through the Lens of Change.&lt;br&gt;
+📄 &lt;strong&gt;JMLR (Submitted)&lt;/strong&gt; – Identifying Weight-Variant Latent Causal Models.&lt;br&gt;
+📄 &lt;strong&gt;ICML 2025 (Submitted)&lt;/strong&gt; – Rethinking State Disentanglement in Causal Reinforcement Learning.&lt;br&gt;
+📄 &lt;strong&gt;ICML 2025 (Submitted)&lt;/strong&gt; – Silver Linings: On the Types of Distribution Shifts that Enhance Identifiability in Causal Representation Learning.&lt;br&gt;
+📄 &lt;strong&gt;ICML 2025 (Submitted)&lt;/strong&gt; – I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?&lt;/p&gt;
+&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;
+&lt;p&gt;For further details or collaboration opportunities, feel free to reach out! 🚀&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advances in Differentiable DAG Learning: Analytic Constraints and Truncated Power Iteration</title>
+      <link>https://example.com/project/daglearning/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/daglearning/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Recovering Directed Acyclic Graph (DAG) structures from observational data is a fundamental problem in causal discovery and machine learning. This project integrates two recent advances in differentiable DAG learning: (1) the formulation of analytic DAG constraints, which leverage properties of analytic functions to construct new, efficient DAG constraints that mitigate gradient vanishing and improve computational stability, and (2) the development of Truncated Matrix Power Iteration (TMPI), a novel method designed to escape gradient vanishing by utilizing geometric series-based DAG constraints. The analytic constraints framework unifies existing continuous DAG constraints and introduces novel constraints that preserve differentiability while ensuring acyclicity. Meanwhile, TMPI efficiently approximates higher-order polynomial constraints with a reduced computational burden, significantly enhancing scalability. By combining these methodologies, this project explores improved approaches for DAG learning with applications in causal inference and structure learning in high-dimensional settings. Experimental evaluations demonstrate that these methods outperform existing state-of-the-art approaches in structural accuracy and computational efficiency.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Analytic DAG Constraints&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces a unified framework for differentiable DAG constraints based on analytic functions.&lt;/li&gt;
+&lt;li&gt;Mitigates gradient vanishing and improves computational stability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Truncated Matrix Power Iteration (TMPI)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proposes a novel method to approximate higher-order polynomial constraints efficiently.&lt;/li&gt;
+&lt;li&gt;Reduces computational burden and enhances scalability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Applications&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrates improved performance in causal discovery and structure learning.&lt;/li&gt;
+&lt;li&gt;Validates the methods on high-dimensional datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Analytic DAG Constraints&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Leverages properties of analytic functions to construct new DAG constraints.&lt;/li&gt;
+&lt;li&gt;Ensures differentiability while preserving acyclicity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Truncated Matrix Power Iteration (TMPI)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Utilizes geometric series to approximate higher-order polynomial constraints.&lt;/li&gt;
+&lt;li&gt;Reduces computational complexity and improves scalability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Structural Accuracy&lt;/strong&gt;: Outperforms state-of-the-art methods in recovering DAG structures.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computational Efficiency&lt;/strong&gt;: Demonstrates significant improvements in runtime and scalability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High-Dimensional Settings&lt;/strong&gt;: Validates the methods on large-scale datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;: &lt;a href=&#34;https://github.com/zzhang1987/Truncated-Matrix-Power-Iteration-for-Differentiable-DAG-Learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://proceedings.neurips.cc/paper_files/paper/2022/file/74fc5575632191d96881d8015f79dde3-Paper-Conference.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Truncated Matrix Power Iteration Paper&lt;/a&gt;, &lt;a href=&#34;https://openreview.net/pdf?id=oCdIo9757e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Analytic DAG Constraints paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h3&gt;
+&lt;p&gt;This project is supported by Centre for Augmented Reasoning, the University of Adelaide.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;keywords&#34;&gt;Keywords&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Causal Discovery&lt;/li&gt;
+&lt;li&gt;Directed Acyclic Graphs (DAGs)&lt;/li&gt;
+&lt;li&gt;Differentiable Learning&lt;/li&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Differentiable Learning | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/differentiable-learning/</link>
+      <atom:link href="https://example.com/tags/differentiable-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Differentiable Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Differentiable Learning</title>
+      <link>https://example.com/tags/differentiable-learning/</link>
+    </image>
+    
+    <item>
+      <title>Advances in Differentiable DAG Learning: Analytic Constraints and Truncated Power Iteration</title>
+      <link>https://example.com/project/daglearning/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/daglearning/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Recovering Directed Acyclic Graph (DAG) structures from observational data is a fundamental problem in causal discovery and machine learning. This project integrates two recent advances in differentiable DAG learning: (1) the formulation of analytic DAG constraints, which leverage properties of analytic functions to construct new, efficient DAG constraints that mitigate gradient vanishing and improve computational stability, and (2) the development of Truncated Matrix Power Iteration (TMPI), a novel method designed to escape gradient vanishing by utilizing geometric series-based DAG constraints. The analytic constraints framework unifies existing continuous DAG constraints and introduces novel constraints that preserve differentiability while ensuring acyclicity. Meanwhile, TMPI efficiently approximates higher-order polynomial constraints with a reduced computational burden, significantly enhancing scalability. By combining these methodologies, this project explores improved approaches for DAG learning with applications in causal inference and structure learning in high-dimensional settings. Experimental evaluations demonstrate that these methods outperform existing state-of-the-art approaches in structural accuracy and computational efficiency.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Analytic DAG Constraints&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces a unified framework for differentiable DAG constraints based on analytic functions.&lt;/li&gt;
+&lt;li&gt;Mitigates gradient vanishing and improves computational stability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Truncated Matrix Power Iteration (TMPI)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proposes a novel method to approximate higher-order polynomial constraints efficiently.&lt;/li&gt;
+&lt;li&gt;Reduces computational burden and enhances scalability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Applications&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrates improved performance in causal discovery and structure learning.&lt;/li&gt;
+&lt;li&gt;Validates the methods on high-dimensional datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;methods&#34;&gt;Methods&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Analytic DAG Constraints&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Leverages properties of analytic functions to construct new DAG constraints.&lt;/li&gt;
+&lt;li&gt;Ensures differentiability while preserving acyclicity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Truncated Matrix Power Iteration (TMPI)&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Utilizes geometric series to approximate higher-order polynomial constraints.&lt;/li&gt;
+&lt;li&gt;Reduces computational complexity and improves scalability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Structural Accuracy&lt;/strong&gt;: Outperforms state-of-the-art methods in recovering DAG structures.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computational Efficiency&lt;/strong&gt;: Demonstrates significant improvements in runtime and scalability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High-Dimensional Settings&lt;/strong&gt;: Validates the methods on large-scale datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;/strong&gt;: &lt;a href=&#34;https://github.com/zzhang1987/Truncated-Matrix-Power-Iteration-for-Differentiable-DAG-Learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://proceedings.neurips.cc/paper_files/paper/2022/file/74fc5575632191d96881d8015f79dde3-Paper-Conference.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Truncated Matrix Power Iteration Paper&lt;/a&gt;, &lt;a href=&#34;https://openreview.net/pdf?id=oCdIo9757e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Analytic DAG Constraints paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h3&gt;
+&lt;p&gt;This project is supported by Centre for Augmented Reasoning, the University of Adelaide.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;keywords&#34;&gt;Keywords&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Causal Discovery&lt;/li&gt;
+&lt;li&gt;Directed Acyclic Graphs (DAGs)&lt;/li&gt;
+&lt;li&gt;Differentiable Learning&lt;/li&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

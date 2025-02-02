@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Hugo Academic CV Theme</title>
+    <link>https://example.com/publication_types/2/</link>
+      <atom:link href="https://example.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>2</title>
+      <link>https://example.com/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Analytic DAG Constraints for Differentiable DAG Learning</title>
+      <link>https://example.com/publication/zhang-analytic-2025/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-analytic-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rethinking State Disentanglement in Causal Reinforcement Learning</title>
+      <link>https://example.com/submitted_papers/causalrl/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/causalrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalization of anomaly detection in bridge structures using a vibration‐based Siamese convolutional neural network</title>
+      <link>https://example.com/publication/ghiasi-generalization-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/ghiasi-generalization-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Causal Inspired Early-Branching Structure for Domain Generalization</title>
+      <link>https://example.com/publication/chen-causal-2024/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/chen-causal-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Big Data Set Analysis Reveals C–C Electro-Coupling Mechanism</title>
+      <link>https://example.com/publication/li-machine-2024/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/li-machine-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Highway Graph to Accelerate Reinforcement Learning</title>
+      <link>https://example.com/publication/yin-highway-2024/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/yin-highway-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InvariantStock: Learning Invariant Features for Mastering the Shifting Market</title>
+      <link>https://example.com/publication/cao-invariantstock-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/cao-invariantstock-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physics-informed data-driven unsteady Reynolds-averaged Navier–Stokes turbulence modeling for particle-laden jet flows</title>
+      <link>https://example.com/publication/zhang-physics-informed-2024/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-physics-informed-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rapid non-destructive method to phenotype stomatal traits</title>
+      <link>https://example.com/publication/pathoumthong-rapid-2023/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/pathoumthong-rapid-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active-learning accelerated computational screening of A2B@ NG catalysts for CO2 electrochemical reduction</title>
+      <link>https://example.com/publication/li-active-learning-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/li-active-learning-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factor graph neural networks</title>
+      <link>https://example.com/publication/zhang-factor-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-factor-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human interaction understanding with consistency-aware learning</title>
+      <link>https://example.com/publication/meng-human-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/meng-human-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SharpFormer: Learning local feature preserving global representations for image deblurring</title>
+      <link>https://example.com/publication/yan-sharpformer-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/yan-sharpformer-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Truncated matrix power iteration for differentiable dag learning</title>
+      <link>https://example.com/publication/zhang-truncated-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-truncated-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A bidirectional graph neural network for traveling salesman problems on arbitrary symmetric graphs</title>
+      <link>https://example.com/publication/hu-bidirectional-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/hu-bidirectional-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factor graph neural networks</title>
+      <link>https://example.com/publication/zhang-factor-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-factor-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning deep gradient descent optimization for image deconvolution</title>
+      <link>https://example.com/publication/gong-learning-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/gong-learning-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An adaptive markov random field for structured compressive sensing</title>
+      <link>https://example.com/publication/suwanwimolkul-adaptive-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/suwanwimolkul-adaptive-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-time correlation filter tracking by efficient dense belief propagation with structure preserving</title>
+      <link>https://example.com/publication/yao-real-time-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/yao-real-time-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable kernel density estimation based robust regression and its applications</title>
+      <link>https://example.com/publication/zhang-variable-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-variable-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

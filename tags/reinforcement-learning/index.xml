@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reinforcement Learning | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/reinforcement-learning/</link>
+      <atom:link href="https://example.com/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reinforcement Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Reinforcement Learning</title>
+      <link>https://example.com/tags/reinforcement-learning/</link>
+    </image>
+    
+    <item>
+      <title>Latent Causal Discovery in Reinforcement Learning and Large Language Models</title>
+      <link>https://example.com/project/latent_causal_discovery/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/latent_causal_discovery/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Latent causal discovery seeks to uncover &lt;strong&gt;hidden causal mechanisms&lt;/strong&gt; in data where the true causal variables are &lt;strong&gt;unobserved&lt;/strong&gt;. Our research develops &lt;strong&gt;theoretical foundations and practical algorithms&lt;/strong&gt; for identifying latent causal structures, particularly in &lt;strong&gt;reinforcement learning (RL)&lt;/strong&gt; and &lt;strong&gt;large language models (LLMs)&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
+&lt;h3 id=&#34;causal-reinforcement-learning&#34;&gt;Causal Reinforcement Learning&lt;/h3&gt;
+&lt;p&gt;In RL, learning &lt;strong&gt;disentangled causal state representations&lt;/strong&gt; is crucial for robust decision-making, generalization, and transfer learning. Our work challenges traditional assumptions and redefines state disentanglement through &lt;strong&gt;causal constraints and interventions&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rethinking State Disentanglement in Causal RL&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Proposing a new framework for &lt;strong&gt;interpretable and robust&lt;/strong&gt; state representations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Silver Linings: When Distribution Shifts Enhance Identifiability&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Investigating &lt;strong&gt;favorable shifts&lt;/strong&gt; that improve latent variable identifiability in RL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;causal-representation-learning-in-large-language-models&#34;&gt;Causal Representation Learning in Large Language Models&lt;/h3&gt;
+&lt;p&gt;Do &lt;strong&gt;LLMs&lt;/strong&gt; learn meaningful &lt;strong&gt;causal representations&lt;/strong&gt;? We analyze whether next-token prediction is sufficient for learning &lt;strong&gt;human-interpretable causal concepts&lt;/strong&gt; and propose methods to &lt;strong&gt;enhance causal learning&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;I Predict Therefore I Am&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Examining whether &lt;strong&gt;transformer-based&lt;/strong&gt; models implicitly encode causal structures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identifiable Latent Polynomial Causal Models&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Leveraging &lt;strong&gt;distribution changes&lt;/strong&gt; to identify latent causal factors in LLMs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;p&gt;🚀 &lt;strong&gt;AI for Science&lt;/strong&gt; – Improving interpretability and robustness in &lt;strong&gt;scientific AI applications&lt;/strong&gt;.&lt;br&gt;
+🤖 &lt;strong&gt;Autonomous Systems&lt;/strong&gt; – Enabling &lt;strong&gt;RL agents&lt;/strong&gt; to adapt to dynamic environments.&lt;br&gt;
+⚖️ &lt;strong&gt;Fair &amp;amp; Robust AI&lt;/strong&gt; – Reducing bias by ensuring models &lt;strong&gt;learn true causal relationships&lt;/strong&gt; rather than spurious correlations.&lt;/p&gt;
+&lt;h2 id=&#34;selected-publications&#34;&gt;Selected Publications&lt;/h2&gt;
+&lt;p&gt;📄 &lt;strong&gt;ICLR 2024&lt;/strong&gt; – Identifiable Latent Polynomial Causal Models Through the Lens of Change.&lt;br&gt;
+📄 &lt;strong&gt;JMLR (Submitted)&lt;/strong&gt; – Identifying Weight-Variant Latent Causal Models.&lt;br&gt;
+📄 &lt;strong&gt;ICML 2025 (Submitted)&lt;/strong&gt; – Rethinking State Disentanglement in Causal Reinforcement Learning.&lt;br&gt;
+📄 &lt;strong&gt;ICML 2025 (Submitted)&lt;/strong&gt; – Silver Linings: On the Types of Distribution Shifts that Enhance Identifiability in Causal Representation Learning.&lt;br&gt;
+📄 &lt;strong&gt;ICML 2025 (Submitted)&lt;/strong&gt; – I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?&lt;/p&gt;
+&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;
+&lt;p&gt;For further details or collaboration opportunities, feel free to reach out! 🚀&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working Papers | Hugo Academic CV Theme</title>
+    <link>https://example.com/submitted_papers/</link>
+      <atom:link href="https://example.com/submitted_papers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Working Papers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Working Papers</title>
+      <link>https://example.com/submitted_papers/</link>
+    </image>
+    
+    <item>
+      <title>Rethinking State Disentanglement in Causal Reinforcement Learning</title>
+      <link>https://example.com/submitted_papers/causalrl/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/causalrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Silver Linings: On the Types of Distribution Shifts that Enhance Identifiability in Causal Representation Learning</title>
+      <link>https://example.com/submitted_papers/latent_causal/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/latent_causal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Quest for Winning Tickets in Low-Rank Adapters</title>
+      <link>https://example.com/submitted_papers/winnint/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/winnint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?</title>
+      <link>https://example.com/submitted_papers/llm/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decomposing Task Vectors for Refined Model Editing</title>
+      <link>https://example.com/submitted_papers/task-decomposition/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/task-decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying Weight-Variant Latent Causal Models</title>
+      <link>https://example.com/submitted_papers/liu-identifying-2024/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/liu-identifying-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

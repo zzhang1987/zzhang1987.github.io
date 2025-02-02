@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interdisciplinary Research | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/interdisciplinary-research/</link>
+      <atom:link href="https://example.com/tags/interdisciplinary-research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Interdisciplinary Research</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Interdisciplinary Research</title>
+      <link>https://example.com/tags/interdisciplinary-research/</link>
+    </image>
+    
+    <item>
+      <title>AI for Science</title>
+      <link>https://example.com/project/ai_for_science/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/ai_for_science/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;&amp;ldquo;AI for Science&amp;rdquo;&lt;/strong&gt; project leverages cutting-edge artificial intelligence (AI) and machine learning (ML) techniques to address complex scientific challenges across diverse domains, including civil engineering, chemistry, fluid dynamics, plant biology, and materials science. By integrating AI with domain-specific knowledge, this project aims to accelerate scientific discovery, improve predictive modeling, and enable data-driven decision-making in research and industry.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;objectives&#34;&gt;Objectives&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Develop AI-driven solutions&lt;/strong&gt; for anomaly detection, predictive modeling, and optimization in scientific and engineering applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bridge the gap between data-driven methods and physics-based models&lt;/strong&gt; to enhance interpretability and generalizability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enable rapid and non-destructive phenotyping&lt;/strong&gt; in biological systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accelerate computational screening&lt;/strong&gt; of materials and catalysts for energy applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foster interdisciplinary collaboration&lt;/strong&gt; between AI researchers and domain experts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;methodologies&#34;&gt;Methodologies&lt;/h3&gt;
+&lt;p&gt;The project employs a variety of AI and ML techniques, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt;: Convolutional neural networks (CNNs), Siamese networks, and physics-informed neural networks (PINNs).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Active Learning&lt;/strong&gt;: Accelerated computational screening and optimization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data-Driven Modeling&lt;/strong&gt;: Integration of big data analytics with domain-specific knowledge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Destructive Techniques&lt;/strong&gt;: Rapid phenotyping and anomaly detection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-outcomes&#34;&gt;Key Outcomes&lt;/h3&gt;
+&lt;p&gt;The project has produced several high-impact publications, demonstrating the versatility and effectiveness of AI in scientific research:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generalization of Anomaly Detection in Bridge Structures&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: Alireza Ghiasi, Zhen Zhang, Zijie Zeng, Ching Tai Ng, Abdul Hamid Sheikh, Javen Qinfeng Shi (2025). &lt;em&gt;Generalization of anomaly detection in bridge structures using a vibration©\based Siamese convolutional neural network&lt;/em&gt;. &lt;strong&gt;Computer-Aided Civil and Infrastructure Engineering&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Developed a vibration-based Siamese CNN for detecting structural anomalies in bridges, enabling early and accurate identification of damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Machine Learning Analysis of Electro-Coupling Mechanisms&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: Haobo Li, Xinyu Li, Pengtang Wang, Zhen Zhang, Kenneth Davey, Javen Qinfeng Shi, Shi-Zhang Qiao (2024). &lt;em&gt;Machine Learning Big Data Set Analysis Reveals C¨CC Electro-Coupling Mechanism&lt;/em&gt;. &lt;strong&gt;Journal of the American Chemical Society&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Uncovered the C¨CC electro-coupling mechanism using ML analysis of big data sets, advancing the understanding of chemical reactions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Physics-Informed Turbulence Modeling for Particle-Laden Jets&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: Xinchen Zhang, Zhen Zhang, Alfonso Chinnici, Zhiwei Sun, Javen Qinfeng Shi, Graham J. Nathan, Rey C. Chin (2024). &lt;em&gt;Physics-informed data-driven unsteady Reynolds-averaged Navier¨CStokes turbulence modeling for particle-laden jet flows&lt;/em&gt;. &lt;strong&gt;Physics of Fluids&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Introduced a physics-informed data-driven approach for turbulence modeling, improving the accuracy of simulations for particle-laden flows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Non-Destructive Phenotyping of Stomatal Traits&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: Phetdalaphone Pathoumthong, Zhen Zhang, Stuart J. Roy, Abdeljalil El Habti (2023). &lt;em&gt;Rapid non-destructive method to phenotype stomatal traits&lt;/em&gt;. &lt;strong&gt;Plant Methods&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Developed a rapid, non-destructive method for phenotyping stomatal traits, enabling high-throughput analysis in plant biology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Active-Learning Accelerated Catalyst Screening&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper&lt;/strong&gt;: Xinyu Li, Haobo Li, Zhen Zhang, Javen Qinfeng Shi, Yan Jiao, Shi-Zhang Qiao (2023). &lt;em&gt;Active-learning accelerated computational screening of A2B@NG catalysts for CO2 electrochemical reduction&lt;/em&gt;. &lt;strong&gt;Nano Energy&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outcome&lt;/strong&gt;: Accelerated the discovery of efficient catalysts for CO2 electrochemical reduction using active learning, reducing computational costs and time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;impact&#34;&gt;Impact&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;&amp;ldquo;AI for Science&amp;rdquo;&lt;/strong&gt; project has made significant contributions to both academia and industry by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhancing the accuracy and efficiency of predictive models in engineering and fluid dynamics.&lt;/li&gt;
+&lt;li&gt;Enabling rapid and non-destructive analysis in biological systems.&lt;/li&gt;
+&lt;li&gt;Accelerating the discovery of new materials and catalysts for sustainable energy applications.&lt;/li&gt;
+&lt;li&gt;Demonstrating the potential of AI to transform scientific research across disciplines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;future-directions&#34;&gt;Future Directions&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Expand Applications&lt;/strong&gt;: Apply AI techniques to new domains, such as climate science, healthcare, and renewable energy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improve Interpretability&lt;/strong&gt;: Develop more interpretable AI models to bridge the gap between data-driven methods and domain knowledge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foster Collaboration&lt;/strong&gt;: Strengthen interdisciplinary collaborations to address grand scientific challenges.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h3&gt;
+&lt;p&gt;This project is supported by Centre for Augmented Reasoning, the University of Adelaide.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;keywords&#34;&gt;Keywords&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Artificial Intelligence&lt;/li&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Scientific Discovery&lt;/li&gt;
+&lt;li&gt;Predictive Modeling&lt;/li&gt;
+&lt;li&gt;Interdisciplinary Research&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science - Machine Learning | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/computer-science---machine-learning/</link>
+      <atom:link href="https://example.com/tags/computer-science---machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Science - Machine Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Computer Science - Machine Learning</title>
+      <link>https://example.com/tags/computer-science---machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Identifiable Latent Polynomial Causal Models Through the Lens of Change</title>
+      <link>https://example.com/publication/liu-identifiable-2024/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/liu-identifiable-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying Weight-Variant Latent Causal Models</title>
+      <link>https://example.com/submitted_papers/liu-identifying-2024/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/submitted_papers/liu-identifying-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Factor Graph Neural Networks | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/factor-graph-neural-networks/</link>
+      <atom:link href="https://example.com/tags/factor-graph-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Factor Graph Neural Networks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Factor Graph Neural Networks</title>
+      <link>https://example.com/tags/factor-graph-neural-networks/</link>
+    </image>
+    
+    <item>
+      <title>Graph Neural Networks</title>
+      <link>https://example.com/project/fgnn/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/fgnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factor graph neural networks</title>
+      <link>https://example.com/publication/zhang-factor-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/zhang-factor-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
