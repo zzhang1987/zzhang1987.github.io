@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | Hugo Academic CV Theme</title>
-    <link>https://example.com/post/</link>
-      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Blog | Zhen Zhang</title>
+    <link>https://zzhang.org/post/</link>
+      <atom:link href="https://zzhang.org/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>https://zzhang.org/media/icon_hu7729264130191091259.png</url>
       <title>Blog</title>
-      <link>https://example.com/post/</link>
+      <link>https://zzhang.org/post/</link>
     </image>
     
     <item>
       <title>🎉 Our Paper &#34;Analytic DAG Constraints for Continuous DAG learning&#34; was accepted to ICLR25</title>
-      <link>https://example.com/post/iclr25/</link>
+      <link>https://zzhang.org/post/iclr25/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/iclr25/</guid>
+      <guid>https://zzhang.org/post/iclr25/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Congrants to Alireza Ghiasi et. al. on the acceptance of  &#39;Generalization of anomaly detection in bridge structures using a vibration-based Siamese convolutional neural network&#39; to Computer Aided Civil Eng</title>
-      <link>https://example.com/post/cace/</link>
+      <link>https://zzhang.org/post/cace/</link>
       <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/cace/</guid>
+      <guid>https://zzhang.org/post/cace/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Congrants to Yichao et. al. on the acceptance of  &#39;CLAP: Isolating Content from Style Through Contrastive Learning with Augmented Prompts&#39; to ECCV2024</title>
-      <link>https://example.com/post/eccv24/</link>
+      <link>https://zzhang.org/post/eccv24/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/eccv24/</guid>
+      <guid>https://zzhang.org/post/eccv24/</guid>
       <description></description>
     </item>
     

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Combinatorial Optimization | Hugo Academic CV Theme</title>
-    <link>https://example.com/tags/combinatorial-optimization/</link>
-      <atom:link href="https://example.com/tags/combinatorial-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <title>Combinatorial Optimization | Zhen Zhang</title>
+    <link>https://zzhang.org/tags/combinatorial-optimization/</link>
+      <atom:link href="https://zzhang.org/tags/combinatorial-optimization/index.xml" rel="self" type="application/rss+xml" />
     <description>Combinatorial Optimization</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>https://zzhang.org/media/icon_hu7729264130191091259.png</url>
       <title>Combinatorial Optimization</title>
-      <link>https://example.com/tags/combinatorial-optimization/</link>
+      <link>https://zzhang.org/tags/combinatorial-optimization/</link>
     </image>
     
     <item>
       <title>Graph Neural Networks</title>
-      <link>https://example.com/project/fgnn/</link>
+      <link>https://zzhang.org/project/fgnn/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/fgnn/</guid>
+      <guid>https://zzhang.org/project/fgnn/</guid>
       <description></description>
     </item>
     

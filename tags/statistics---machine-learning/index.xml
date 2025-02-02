@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Statistics - Machine Learning | Hugo Academic CV Theme</title>
-    <link>https://example.com/tags/statistics---machine-learning/</link>
-      <atom:link href="https://example.com/tags/statistics---machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <title>Statistics - Machine Learning | Zhen Zhang</title>
+    <link>https://zzhang.org/tags/statistics---machine-learning/</link>
+      <atom:link href="https://zzhang.org/tags/statistics---machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics - Machine Learning</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>https://zzhang.org/media/icon_hu7729264130191091259.png</url>
       <title>Statistics - Machine Learning</title>
-      <link>https://example.com/tags/statistics---machine-learning/</link>
+      <link>https://zzhang.org/tags/statistics---machine-learning/</link>
     </image>
     
     <item>
       <title>Identifying Weight-Variant Latent Causal Models</title>
-      <link>https://example.com/submitted_papers/liu-identifying-2024/</link>
+      <link>https://zzhang.org/submitted_papers/liu-identifying-2024/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/submitted_papers/liu-identifying-2024/</guid>
+      <guid>https://zzhang.org/submitted_papers/liu-identifying-2024/</guid>
       <description></description>
     </item>
     
