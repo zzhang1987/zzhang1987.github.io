@@ -2,278 +2,278 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhen Zhang</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zzhang.org/</link>
+      <atom:link href="https://zzhang.org/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhen Zhang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://zzhang.org/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Zhen Zhang</title>
-      <link>http://localhost:1313/</link>
+      <link>https://zzhang.org/</link>
     </image>
     
     <item>
       <title>🎉 Excited to share that our team has three papers accepted at NeurIPS 2025 — on advances in optimization, probabilistic forecasting, and multimodal learning. Grateful to all collaborators and looking forward to the discussions at the conference!</title>
-      <link>http://localhost:1313/post/neurips/</link>
+      <link>https://zzhang.org/post/neurips/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/neurips/</guid>
+      <guid>https://zzhang.org/post/neurips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Adaptive Quantization in Generative Flow Networks for Probabilistic Sequential Prediction</title>
-      <link>http://localhost:1313/publication/hassen-2025-adaptive/</link>
+      <link>https://zzhang.org/publication/hassen-2025-adaptive/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hassen-2025-adaptive/</guid>
+      <guid>https://zzhang.org/publication/hassen-2025-adaptive/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>On the Value of Cross-Modal Misalignment in Multimodal Representation Learning</title>
-      <link>http://localhost:1313/publication/cai-2025-value/</link>
+      <link>https://zzhang.org/publication/cai-2025-value/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cai-2025-value/</guid>
+      <guid>https://zzhang.org/publication/cai-2025-value/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Solving the Asymmetric Traveling Salesman Problem via Trace-Guided Cost Augmentation</title>
-      <link>http://localhost:1313/publication/zhang-2025-solving/</link>
+      <link>https://zzhang.org/publication/zhang-2025-solving/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-2025-solving/</guid>
+      <guid>https://zzhang.org/publication/zhang-2025-solving/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>🎉 Our Paper &#34;Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning&#34; was accepted to ICCV25</title>
-      <link>http://localhost:1313/post/iccv25/</link>
+      <link>https://zzhang.org/post/iccv25/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/iccv25/</guid>
+      <guid>https://zzhang.org/post/iccv25/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning</title>
-      <link>http://localhost:1313/publication/jiang-2025-causal/</link>
+      <link>https://zzhang.org/publication/jiang-2025-causal/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/jiang-2025-causal/</guid>
+      <guid>https://zzhang.org/publication/jiang-2025-causal/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Analytic DAG Constraints for Differentiable DAG Learning</title>
-      <link>http://localhost:1313/publication/zhang-analytic-2025/</link>
+      <link>https://zzhang.org/publication/zhang-analytic-2025/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-analytic-2025/</guid>
+      <guid>https://zzhang.org/publication/zhang-analytic-2025/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Rethinking State Disentanglement in Causal Reinforcement Learning</title>
-      <link>http://localhost:1313/submitted_papers/causalrl/</link>
+      <link>https://zzhang.org/submitted_papers/causalrl/</link>
       <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/causalrl/</guid>
+      <guid>https://zzhang.org/submitted_papers/causalrl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Silver Linings: On the Types of Distribution Shifts that Enhance Identifiability in Causal Representation Learning</title>
-      <link>http://localhost:1313/submitted_papers/latent_causal/</link>
+      <link>https://zzhang.org/submitted_papers/latent_causal/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/latent_causal/</guid>
+      <guid>https://zzhang.org/submitted_papers/latent_causal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Quest for Winning Tickets in Low-Rank Adapters</title>
-      <link>http://localhost:1313/submitted_papers/winnint/</link>
+      <link>https://zzhang.org/submitted_papers/winnint/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/winnint/</guid>
+      <guid>https://zzhang.org/submitted_papers/winnint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Our Paper &#34;Analytic DAG Constraints for Continuous DAG learning&#34; was accepted to ICLR25</title>
-      <link>http://localhost:1313/post/iclr25/</link>
+      <link>https://zzhang.org/post/iclr25/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/iclr25/</guid>
+      <guid>https://zzhang.org/post/iclr25/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CLAP: Isolating Content from Style Through Contrastive Learning with Augmented Prompts</title>
-      <link>http://localhost:1313/publication/leonardis-clap-2025/</link>
+      <link>https://zzhang.org/publication/leonardis-clap-2025/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/leonardis-clap-2025/</guid>
+      <guid>https://zzhang.org/publication/leonardis-clap-2025/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Generalization of anomaly detection in bridge structures using a vibration‐based Siamese convolutional neural network</title>
-      <link>http://localhost:1313/publication/ghiasi-generalization-2025/</link>
+      <link>https://zzhang.org/publication/ghiasi-generalization-2025/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ghiasi-generalization-2025/</guid>
+      <guid>https://zzhang.org/publication/ghiasi-generalization-2025/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?</title>
-      <link>http://localhost:1313/submitted_papers/llm/</link>
+      <link>https://zzhang.org/submitted_papers/llm/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/llm/</guid>
+      <guid>https://zzhang.org/submitted_papers/llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decomposing Task Vectors for Refined Model Editing</title>
-      <link>http://localhost:1313/submitted_papers/task-decomposition/</link>
+      <link>https://zzhang.org/submitted_papers/task-decomposition/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/task-decomposition/</guid>
+      <guid>https://zzhang.org/submitted_papers/task-decomposition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identifiable Latent Polynomial Causal Models Through the Lens of Change</title>
-      <link>http://localhost:1313/publication/liu-identifiable-2024/</link>
+      <link>https://zzhang.org/publication/liu-identifiable-2024/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/liu-identifiable-2024/</guid>
+      <guid>https://zzhang.org/publication/liu-identifiable-2024/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Causal Inspired Early-Branching Structure for Domain Generalization</title>
-      <link>http://localhost:1313/publication/chen-causal-2024/</link>
+      <link>https://zzhang.org/publication/chen-causal-2024/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/chen-causal-2024/</guid>
+      <guid>https://zzhang.org/publication/chen-causal-2024/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Identifying Weight-Variant Latent Causal Models</title>
-      <link>http://localhost:1313/publication/liu-identifying-2024/</link>
+      <link>https://zzhang.org/publication/liu-identifying-2024/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/liu-identifying-2024/</guid>
+      <guid>https://zzhang.org/publication/liu-identifying-2024/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Identifying Weight-Variant Latent Causal Models</title>
-      <link>http://localhost:1313/submitted_papers/liu-identifying-2024/</link>
+      <link>https://zzhang.org/submitted_papers/liu-identifying-2024/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/liu-identifying-2024/</guid>
+      <guid>https://zzhang.org/submitted_papers/liu-identifying-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning Big Data Set Analysis Reveals C–C Electro-Coupling Mechanism</title>
-      <link>http://localhost:1313/publication/li-machine-2024/</link>
+      <link>https://zzhang.org/publication/li-machine-2024/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/li-machine-2024/</guid>
+      <guid>https://zzhang.org/publication/li-machine-2024/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://zzhang.org/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://zzhang.org/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highway Graph to Accelerate Reinforcement Learning</title>
-      <link>http://localhost:1313/publication/yin-highway-2024/</link>
+      <link>https://zzhang.org/publication/yin-highway-2024/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/yin-highway-2024/</guid>
+      <guid>https://zzhang.org/publication/yin-highway-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>InvariantStock: Learning Invariant Features for Mastering the Shifting Market</title>
-      <link>http://localhost:1313/publication/cao-invariantstock-2024/</link>
+      <link>https://zzhang.org/publication/cao-invariantstock-2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cao-invariantstock-2024/</guid>
+      <guid>https://zzhang.org/publication/cao-invariantstock-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics-informed data-driven unsteady Reynolds-averaged Navier–Stokes turbulence modeling for particle-laden jet flows</title>
-      <link>http://localhost:1313/publication/zhang-physics-informed-2024/</link>
+      <link>https://zzhang.org/publication/zhang-physics-informed-2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-physics-informed-2024/</guid>
+      <guid>https://zzhang.org/publication/zhang-physics-informed-2024/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://zzhang.org/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://zzhang.org/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rapid non-destructive method to phenotype stomatal traits</title>
-      <link>http://localhost:1313/publication/pathoumthong-rapid-2023/</link>
+      <link>https://zzhang.org/publication/pathoumthong-rapid-2023/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pathoumthong-rapid-2023/</guid>
+      <guid>https://zzhang.org/publication/pathoumthong-rapid-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Active-learning accelerated computational screening of A2B@ NG catalysts for CO2 electrochemical reduction</title>
-      <link>http://localhost:1313/publication/li-active-learning-2023/</link>
+      <link>https://zzhang.org/publication/li-active-learning-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/li-active-learning-2023/</guid>
+      <guid>https://zzhang.org/publication/li-active-learning-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Factor graph neural networks</title>
-      <link>http://localhost:1313/publication/zhang-factor-2023/</link>
+      <link>https://zzhang.org/publication/zhang-factor-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-factor-2023/</guid>
+      <guid>https://zzhang.org/publication/zhang-factor-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Human interaction understanding with consistency-aware learning</title>
-      <link>http://localhost:1313/publication/meng-human-2023/</link>
+      <link>https://zzhang.org/publication/meng-human-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/meng-human-2023/</guid>
+      <guid>https://zzhang.org/publication/meng-human-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>SharpFormer: Learning local feature preserving global representations for image deblurring</title>
-      <link>http://localhost:1313/publication/yan-sharpformer-2023/</link>
+      <link>https://zzhang.org/publication/yan-sharpformer-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/yan-sharpformer-2023/</guid>
+      <guid>https://zzhang.org/publication/yan-sharpformer-2023/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>AI for Science</title>
-      <link>http://localhost:1313/project/ai_for_science/</link>
+      <link>https://zzhang.org/project/ai_for_science/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/ai_for_science/</guid>
+      <guid>https://zzhang.org/project/ai_for_science/</guid>
       <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The &lt;strong&gt;&amp;ldquo;AI for Science&amp;rdquo;&lt;/strong&gt; project leverages cutting-edge artificial intelligence (AI) and machine learning (ML) techniques to address complex scientific challenges across diverse domains, including civil engineering, chemistry, fluid dynamics, plant biology, and materials science. By integrating AI with domain-specific knowledge, this project aims to accelerate scientific discovery, improve predictive modeling, and enable data-driven decision-making in research and industry.&lt;/p&gt;
 &lt;hr&gt;
@@ -368,9 +368,9 @@
     
     <item>
       <title>Latent Causal Discovery in Reinforcement Learning and Large Language Models</title>
-      <link>http://localhost:1313/project/latent_causal_discovery/</link>
+      <link>https://zzhang.org/project/latent_causal_discovery/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/latent_causal_discovery/</guid>
+      <guid>https://zzhang.org/project/latent_causal_discovery/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Latent causal discovery seeks to uncover &lt;strong&gt;hidden causal mechanisms&lt;/strong&gt; in data where the true causal variables are &lt;strong&gt;unobserved&lt;/strong&gt;. Our research develops &lt;strong&gt;theoretical foundations and practical algorithms&lt;/strong&gt; for identifying latent causal structures, particularly in &lt;strong&gt;reinforcement learning (RL)&lt;/strong&gt; and &lt;strong&gt;large language models (LLMs)&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
@@ -419,36 +419,36 @@
     
     <item>
       <title>A lightweight network for high dynamic range imaging</title>
-      <link>http://localhost:1313/publication/yan-lightweight-2022/</link>
+      <link>https://zzhang.org/publication/yan-lightweight-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/yan-lightweight-2022/</guid>
+      <guid>https://zzhang.org/publication/yan-lightweight-2022/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>NTIRE 2022 challenge on high dynamic range imaging: Methods and results</title>
-      <link>http://localhost:1313/publication/perez-pellitero-ntire-2022/</link>
+      <link>https://zzhang.org/publication/perez-pellitero-ntire-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/perez-pellitero-ntire-2022/</guid>
+      <guid>https://zzhang.org/publication/perez-pellitero-ntire-2022/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Truncated matrix power iteration for differentiable dag learning</title>
-      <link>http://localhost:1313/publication/zhang-truncated-2022/</link>
+      <link>https://zzhang.org/publication/zhang-truncated-2022/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-truncated-2022/</guid>
+      <guid>https://zzhang.org/publication/zhang-truncated-2022/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Advances in Differentiable DAG Learning: Analytic Constraints and Truncated Power Iteration</title>
-      <link>http://localhost:1313/project/daglearning/</link>
+      <link>https://zzhang.org/project/daglearning/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/daglearning/</guid>
+      <guid>https://zzhang.org/project/daglearning/</guid>
       <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Recovering Directed Acyclic Graph (DAG) structures from observational data is a fundamental problem in causal discovery and machine learning. This project integrates two recent advances in differentiable DAG learning: (1) the formulation of analytic DAG constraints, which leverage properties of analytic functions to construct new, efficient DAG constraints that mitigate gradient vanishing and improve computational stability, and (2) the development of Truncated Matrix Power Iteration (TMPI), a novel method designed to escape gradient vanishing by utilizing geometric series-based DAG constraints. The analytic constraints framework unifies existing continuous DAG constraints and introduces novel constraints that preserve differentiability while ensuring acyclicity. Meanwhile, TMPI efficiently approximates higher-order polynomial constraints with a reduced computational burden, significantly enhancing scalability. By combining these methodologies, this project explores improved approaches for DAG learning with applications in causal inference and structure learning in high-dimensional settings. Experimental evaluations demonstrate that these methods outperform existing state-of-the-art approaches in structural accuracy and computational efficiency.&lt;/p&gt;
 &lt;hr&gt;
@@ -527,171 +527,171 @@
     
     <item>
       <title>A bidirectional graph neural network for traveling salesman problems on arbitrary symmetric graphs</title>
-      <link>http://localhost:1313/publication/hu-bidirectional-2021/</link>
+      <link>https://zzhang.org/publication/hu-bidirectional-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hu-bidirectional-2021/</guid>
+      <guid>https://zzhang.org/publication/hu-bidirectional-2021/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Memory-augmented dynamic neural relational inference</title>
-      <link>http://localhost:1313/publication/gong-memory-augmented-2021/</link>
+      <link>https://zzhang.org/publication/gong-memory-augmented-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gong-memory-augmented-2021/</guid>
+      <guid>https://zzhang.org/publication/gong-memory-augmented-2021/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Factor graph neural networks</title>
-      <link>http://localhost:1313/publication/zhang-factor-2020/</link>
+      <link>https://zzhang.org/publication/zhang-factor-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-factor-2020/</guid>
+      <guid>https://zzhang.org/publication/zhang-factor-2020/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Learning deep gradient descent optimization for image deconvolution</title>
-      <link>http://localhost:1313/publication/gong-learning-2020/</link>
+      <link>https://zzhang.org/publication/gong-learning-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gong-learning-2020/</guid>
+      <guid>https://zzhang.org/publication/gong-learning-2020/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Multiplicative gaussian particle filter</title>
-      <link>http://localhost:1313/publication/su-multiplicative-2020/</link>
+      <link>https://zzhang.org/publication/su-multiplicative-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/su-multiplicative-2020/</guid>
+      <guid>https://zzhang.org/publication/su-multiplicative-2020/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Visual relationship detection with low rank non-negative tensor decomposition</title>
-      <link>http://localhost:1313/publication/dupty-visual-2020/</link>
+      <link>https://zzhang.org/publication/dupty-visual-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/dupty-visual-2020/</guid>
+      <guid>https://zzhang.org/publication/dupty-visual-2020/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Deep graphical feature learning for the feature matching problem</title>
-      <link>http://localhost:1313/publication/zhang-deep-2019/</link>
+      <link>https://zzhang.org/publication/zhang-deep-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-deep-2019/</guid>
+      <guid>https://zzhang.org/publication/zhang-deep-2019/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>An adaptive markov random field for structured compressive sensing</title>
-      <link>http://localhost:1313/publication/suwanwimolkul-adaptive-2018/</link>
+      <link>https://zzhang.org/publication/suwanwimolkul-adaptive-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/suwanwimolkul-adaptive-2018/</guid>
+      <guid>https://zzhang.org/publication/suwanwimolkul-adaptive-2018/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Convolutional sequence to sequence model for human dynamics</title>
-      <link>http://localhost:1313/publication/li-convolutional-2018/</link>
+      <link>https://zzhang.org/publication/li-convolutional-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/li-convolutional-2018/</guid>
+      <guid>https://zzhang.org/publication/li-convolutional-2018/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching.</title>
-      <link>http://localhost:1313/publication/zhang-dynamic-2017/</link>
+      <link>https://zzhang.org/publication/zhang-dynamic-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-dynamic-2017/</guid>
+      <guid>https://zzhang.org/publication/zhang-dynamic-2017/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Solving Constrained Combinatorial Optimisation Problems via MAP Inference without High-Order Penalties</title>
-      <link>http://localhost:1313/publication/zhang-solving-2017/</link>
+      <link>https://zzhang.org/publication/zhang-solving-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-solving-2017/</guid>
+      <guid>https://zzhang.org/publication/zhang-solving-2017/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Joint probabilistic matching using m-best solutions</title>
-      <link>http://localhost:1313/publication/hamid-rezatofighi-joint-2016/</link>
+      <link>https://zzhang.org/publication/hamid-rezatofighi-joint-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hamid-rezatofighi-joint-2016/</guid>
+      <guid>https://zzhang.org/publication/hamid-rezatofighi-joint-2016/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Pairwise matching through max-weight bipartite belief propagation</title>
-      <link>http://localhost:1313/publication/zhang-pairwise-2016/</link>
+      <link>https://zzhang.org/publication/zhang-pairwise-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-pairwise-2016/</guid>
+      <guid>https://zzhang.org/publication/zhang-pairwise-2016/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Real-time correlation filter tracking by efficient dense belief propagation with structure preserving</title>
-      <link>http://localhost:1313/publication/yao-real-time-2016/</link>
+      <link>https://zzhang.org/publication/yao-real-time-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/yao-real-time-2016/</guid>
+      <guid>https://zzhang.org/publication/yao-real-time-2016/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Joint probabilistic data association revisited</title>
-      <link>http://localhost:1313/publication/rezatofighi-joint-2015/</link>
+      <link>https://zzhang.org/publication/rezatofighi-joint-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/rezatofighi-joint-2015/</guid>
+      <guid>https://zzhang.org/publication/rezatofighi-joint-2015/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Learning graph structure for multi-label image classification via clique generation</title>
-      <link>http://localhost:1313/publication/tan-learning-2015/</link>
+      <link>https://zzhang.org/publication/tan-learning-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/tan-learning-2015/</guid>
+      <guid>https://zzhang.org/publication/tan-learning-2015/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Constraint Reduction using Marginal Polytope Diagrams for MAP LP Relaxations</title>
-      <link>http://localhost:1313/publication/zhang-constraint-2014/</link>
+      <link>https://zzhang.org/publication/zhang-constraint-2014/</link>
       <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-constraint-2014/</guid>
+      <guid>https://zzhang.org/publication/zhang-constraint-2014/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Variable kernel density estimation based robust regression and its applications</title>
-      <link>http://localhost:1313/publication/zhang-variable-2014/</link>
+      <link>https://zzhang.org/publication/zhang-variable-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/zhang-variable-2014/</guid>
+      <guid>https://zzhang.org/publication/zhang-variable-2014/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Generalized Kernel Density Estimation Based Robust Estimator and Its Application</title>
-      <link>http://localhost:1313/publication/hutchison-generalized-2012/</link>
+      <link>https://zzhang.org/publication/hutchison-generalized-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hutchison-generalized-2012/</guid>
+      <guid>https://zzhang.org/publication/hutchison-generalized-2012/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>

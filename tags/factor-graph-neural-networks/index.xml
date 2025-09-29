@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Factor Graph Neural Networks | Zhen Zhang</title>
-    <link>http://localhost:1313/tags/factor-graph-neural-networks/</link>
-      <atom:link href="http://localhost:1313/tags/factor-graph-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zzhang.org/tags/factor-graph-neural-networks/</link>
+      <atom:link href="https://zzhang.org/tags/factor-graph-neural-networks/index.xml" rel="self" type="application/rss+xml" />
     <description>Factor Graph Neural Networks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://zzhang.org/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Factor Graph Neural Networks</title>
-      <link>http://localhost:1313/tags/factor-graph-neural-networks/</link>
+      <link>https://zzhang.org/tags/factor-graph-neural-networks/</link>
     </image>
     
     <item>
       <title>Graph Neural Networks</title>
-      <link>http://localhost:1313/project/fgnn/</link>
+      <link>https://zzhang.org/project/fgnn/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/fgnn/</guid>
+      <guid>https://zzhang.org/project/fgnn/</guid>
       <description></description>
     </item>
     

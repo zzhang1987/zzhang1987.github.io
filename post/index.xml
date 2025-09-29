@@ -2,29 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Zhen Zhang</title>
-    <link>http://localhost:1313/post/</link>
-      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zzhang.org/post/</link>
+      <atom:link href="https://zzhang.org/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://zzhang.org/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Blog</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://zzhang.org/post/</link>
     </image>
     
     <item>
       <title>🎉 Excited to share that our team has three papers accepted at NeurIPS 2025 — on advances in optimization, probabilistic forecasting, and multimodal learning. Grateful to all collaborators and looking forward to the discussions at the conference!</title>
-      <link>http://localhost:1313/post/neurips/</link>
+      <link>https://zzhang.org/post/neurips/</link>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/neurips/</guid>
+      <guid>https://zzhang.org/post/neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 Our Paper &#34;Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning&#34; was accepted to ICCV25</title>
+      <link>https://zzhang.org/post/iccv25/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://zzhang.org/post/iccv25/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Our Paper &#34;Analytic DAG Constraints for Continuous DAG learning&#34; was accepted to ICLR25</title>
-      <link>http://localhost:1313/post/iclr25/</link>
+      <link>https://zzhang.org/post/iclr25/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/iclr25/</guid>
+      <guid>https://zzhang.org/post/iclr25/</guid>
       <description></description>
     </item>
     

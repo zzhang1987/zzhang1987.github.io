@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Zhen Zhang</title>
-    <link>http://localhost:1313/publication_types/2/</link>
-      <atom:link href="http://localhost:1313/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zzhang.org/publication_types/2/</link>
+      <atom:link href="https://zzhang.org/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://zzhang.org/media/icon_hu_982c5d63a71b2961.png</url>
       <title>2</title>
-      <link>http://localhost:1313/publication_types/2/</link>
+      <link>https://zzhang.org/publication_types/2/</link>
     </image>
     
     <item>
       <title>Rethinking State Disentanglement in Causal Reinforcement Learning</title>
-      <link>http://localhost:1313/submitted_papers/causalrl/</link>
+      <link>https://zzhang.org/submitted_papers/causalrl/</link>
       <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/causalrl/</guid>
+      <guid>https://zzhang.org/submitted_papers/causalrl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highway Graph to Accelerate Reinforcement Learning</title>
-      <link>http://localhost:1313/publication/yin-highway-2024/</link>
+      <link>https://zzhang.org/publication/yin-highway-2024/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/yin-highway-2024/</guid>
+      <guid>https://zzhang.org/publication/yin-highway-2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>InvariantStock: Learning Invariant Features for Mastering the Shifting Market</title>
-      <link>http://localhost:1313/publication/cao-invariantstock-2024/</link>
+      <link>https://zzhang.org/publication/cao-invariantstock-2024/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cao-invariantstock-2024/</guid>
+      <guid>https://zzhang.org/publication/cao-invariantstock-2024/</guid>
       <description></description>
     </item>
     

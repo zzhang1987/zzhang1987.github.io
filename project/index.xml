@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Zhen Zhang</title>
-    <link>http://localhost:1313/project/</link>
-      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zzhang.org/project/</link>
+      <atom:link href="https://zzhang.org/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://zzhang.org/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://zzhang.org/project/</link>
     </image>
     
     <item>
       <title>AI for Science</title>
-      <link>http://localhost:1313/project/ai_for_science/</link>
+      <link>https://zzhang.org/project/ai_for_science/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/ai_for_science/</guid>
+      <guid>https://zzhang.org/project/ai_for_science/</guid>
       <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The &lt;strong&gt;&amp;ldquo;AI for Science&amp;rdquo;&lt;/strong&gt; project leverages cutting-edge artificial intelligence (AI) and machine learning (ML) techniques to address complex scientific challenges across diverse domains, including civil engineering, chemistry, fluid dynamics, plant biology, and materials science. By integrating AI with domain-specific knowledge, this project aims to accelerate scientific discovery, improve predictive modeling, and enable data-driven decision-making in research and industry.&lt;/p&gt;
 &lt;hr&gt;
@@ -111,9 +111,9 @@
     
     <item>
       <title>Latent Causal Discovery in Reinforcement Learning and Large Language Models</title>
-      <link>http://localhost:1313/project/latent_causal_discovery/</link>
+      <link>https://zzhang.org/project/latent_causal_discovery/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/latent_causal_discovery/</guid>
+      <guid>https://zzhang.org/project/latent_causal_discovery/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Latent causal discovery seeks to uncover &lt;strong&gt;hidden causal mechanisms&lt;/strong&gt; in data where the true causal variables are &lt;strong&gt;unobserved&lt;/strong&gt;. Our research develops &lt;strong&gt;theoretical foundations and practical algorithms&lt;/strong&gt; for identifying latent causal structures, particularly in &lt;strong&gt;reinforcement learning (RL)&lt;/strong&gt; and &lt;strong&gt;large language models (LLMs)&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;research-focus&#34;&gt;Research Focus&lt;/h2&gt;
@@ -162,9 +162,9 @@
     
     <item>
       <title>Advances in Differentiable DAG Learning: Analytic Constraints and Truncated Power Iteration</title>
-      <link>http://localhost:1313/project/daglearning/</link>
+      <link>https://zzhang.org/project/daglearning/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/daglearning/</guid>
+      <guid>https://zzhang.org/project/daglearning/</guid>
       <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Recovering Directed Acyclic Graph (DAG) structures from observational data is a fundamental problem in causal discovery and machine learning. This project integrates two recent advances in differentiable DAG learning: (1) the formulation of analytic DAG constraints, which leverage properties of analytic functions to construct new, efficient DAG constraints that mitigate gradient vanishing and improve computational stability, and (2) the development of Truncated Matrix Power Iteration (TMPI), a novel method designed to escape gradient vanishing by utilizing geometric series-based DAG constraints. The analytic constraints framework unifies existing continuous DAG constraints and introduces novel constraints that preserve differentiability while ensuring acyclicity. Meanwhile, TMPI efficiently approximates higher-order polynomial constraints with a reduced computational burden, significantly enhancing scalability. By combining these methodologies, this project explores improved approaches for DAG learning with applications in causal inference and structure learning in high-dimensional settings. Experimental evaluations demonstrate that these methods outperform existing state-of-the-art approaches in structural accuracy and computational efficiency.&lt;/p&gt;
 &lt;hr&gt;

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Zhen Zhang</title>
-    <link>http://localhost:1313/publication_types/1/</link>
-      <atom:link href="http://localhost:1313/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zzhang.org/publication_types/1/</link>
+      <atom:link href="https://zzhang.org/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://zzhang.org/media/icon_hu_982c5d63a71b2961.png</url>
       <title>1</title>
-      <link>http://localhost:1313/publication_types/1/</link>
+      <link>https://zzhang.org/publication_types/1/</link>
     </image>
     
     <item>
       <title>Silver Linings: On the Types of Distribution Shifts that Enhance Identifiability in Causal Representation Learning</title>
-      <link>http://localhost:1313/submitted_papers/latent_causal/</link>
+      <link>https://zzhang.org/submitted_papers/latent_causal/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/latent_causal/</guid>
+      <guid>https://zzhang.org/submitted_papers/latent_causal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Quest for Winning Tickets in Low-Rank Adapters</title>
-      <link>http://localhost:1313/submitted_papers/winnint/</link>
+      <link>https://zzhang.org/submitted_papers/winnint/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/winnint/</guid>
+      <guid>https://zzhang.org/submitted_papers/winnint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?</title>
-      <link>http://localhost:1313/submitted_papers/llm/</link>
+      <link>https://zzhang.org/submitted_papers/llm/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/llm/</guid>
+      <guid>https://zzhang.org/submitted_papers/llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decomposing Task Vectors for Refined Model Editing</title>
-      <link>http://localhost:1313/submitted_papers/task-decomposition/</link>
+      <link>https://zzhang.org/submitted_papers/task-decomposition/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/submitted_papers/task-decomposition/</guid>
+      <guid>https://zzhang.org/submitted_papers/task-decomposition/</guid>
       <description></description>
     </item>
     

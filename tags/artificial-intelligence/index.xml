@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artificial Intelligence | Zhen Zhang</title>
-    <link>http://localhost:1313/tags/artificial-intelligence/</link>
-      <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://zzhang.org/tags/artificial-intelligence/</link>
+      <atom:link href="https://zzhang.org/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <description>Artificial Intelligence</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://zzhang.org/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Artificial Intelligence</title>
-      <link>http://localhost:1313/tags/artificial-intelligence/</link>
+      <link>https://zzhang.org/tags/artificial-intelligence/</link>
     </image>
     
     <item>
       <title>AI for Science</title>
-      <link>http://localhost:1313/project/ai_for_science/</link>
+      <link>https://zzhang.org/project/ai_for_science/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/ai_for_science/</guid>
+      <guid>https://zzhang.org/project/ai_for_science/</guid>
       <description>&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The &lt;strong&gt;&amp;ldquo;AI for Science&amp;rdquo;&lt;/strong&gt; project leverages cutting-edge artificial intelligence (AI) and machine learning (ML) techniques to address complex scientific challenges across diverse domains, including civil engineering, chemistry, fluid dynamics, plant biology, and materials science. By integrating AI with domain-specific knowledge, this project aims to accelerate scientific discovery, improve predictive modeling, and enable data-driven decision-making in research and industry.&lt;/p&gt;
 &lt;hr&gt;

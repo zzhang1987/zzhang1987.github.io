@@ -3,7 +3,7 @@
 <!-- Last Published: September 29, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,7 +44,7 @@
   <meta name="description" content="Reinforcement Learning (RL) algorithms often suffer from low training efficiency. A strategy to mitigate this issue is to incorporate a model-based planning algorithm, such as Monte Carlo Tree Search (MCTS) or Value Iteration (VI), into the environmental model. The major limitation of VI is the need to iterate over a large tensor. These still lead to intensive computations. We focus on improving the training efficiency of RL algorithms by improving the efficiency of the value learning process. For the deterministic environments with discrete state and action spaces, a non-branching sequence of transitions moves the agent without deviating from intermediate states, which we call a highway. On such non-branching highways, the value-updating process can be merged as a one-step process instead of iterating the value step-by-step. Based on this observation, we propose a novel graph structure, named highway graph, to model the state transition. Our highway graph compresses the transition model into a concise graph, where edges can represent multiple state transitions to support value propagation across multiple time steps in each iteration. We thus can obtain a more efficient value learning approach by facilitating the VI algorithm on highway graphs. By integrating the highway graph into RL (as a model-based off-policy RL method), the RL training can be remarkably accelerated in the early stages (within 1 million frames). Comparison against various baselines on four categories of environments reveals that our method outperforms both representative and novel model-free and model-based RL algorithms, demonstrating 10 to more than 150 times more efficiency while maintaining an equal or superior expected return, as confirmed by carefully conducted analyses. Moreover, a deep neural network-based agent is trained using the highway graph, resulting in better generalization and lower storage costs." />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/yin-highway-2024/" />
+  <link rel="alternate" hreflang="en-us" href="https://zzhang.org/publication/yin-highway-2024/" />
 
   
   
@@ -62,7 +62,9 @@
   
   
     
-      <link rel="stylesheet" href="/css/main.css">
+      
+        <link rel="stylesheet" href="/css/main.a1932d85beddc773bb41fed7f0a1fc4d324b55416a01e283f033eaa6547a2600.css" integrity="sha256-oZMthb7dx3O7Qf7X8KH8TTJLVUFqAeKD8DPqplR6JgA=" crossorigin="anonymous">
+      
     
   
 
@@ -75,7 +77,7 @@
 
   
 
-  <script src="/js/hb-head.min.js"></script>
+  <script src="/js/hb-head.min.4f709a77731090398c609176d6a8ca70c152ef89185db97631774ffe9011d746.js" integrity="sha256-T3Cad3MQkDmMYJF21qjKcMFS74kYXbl2MXdP/pAR10Y=" crossorigin="anonymous"></script>
 
   
   
@@ -123,7 +125,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_c545d605fbaba839.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_b7aec86dcb688f0.png" />
 
-  <link rel="canonical" href="http://localhost:1313/publication/yin-highway-2024/" />
+  <link rel="canonical" href="https://zzhang.org/publication/yin-highway-2024/" />
 
   
   
@@ -149,10 +151,10 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Zhen Zhang" />
-  <meta property="og:url" content="http://localhost:1313/publication/yin-highway-2024/" />
+  <meta property="og:url" content="https://zzhang.org/publication/yin-highway-2024/" />
   <meta property="og:title" content="Highway Graph to Accelerate Reinforcement Learning | Zhen Zhang" />
-  <meta property="og:description" content="Reinforcement Learning (RL) algorithms often suffer from low training efficiency. A strategy to mitigate this issue is to incorporate a model-based planning algorithm, such as Monte Carlo Tree Search (MCTS) or Value Iteration (VI), into the environmental model. The major limitation of VI is the need to iterate over a large tensor. These still lead to intensive computations. We focus on improving the training efficiency of RL algorithms by improving the efficiency of the value learning process. For the deterministic environments with discrete state and action spaces, a non-branching sequence of transitions moves the agent without deviating from intermediate states, which we call a highway. On such non-branching highways, the value-updating process can be merged as a one-step process instead of iterating the value step-by-step. Based on this observation, we propose a novel graph structure, named highway graph, to model the state transition. Our highway graph compresses the transition model into a concise graph, where edges can represent multiple state transitions to support value propagation across multiple time steps in each iteration. We thus can obtain a more efficient value learning approach by facilitating the VI algorithm on highway graphs. By integrating the highway graph into RL (as a model-based off-policy RL method), the RL training can be remarkably accelerated in the early stages (within 1 million frames). Comparison against various baselines on four categories of environments reveals that our method outperforms both representative and novel model-free and model-based RL algorithms, demonstrating 10 to more than 150 times more efficiency while maintaining an equal or superior expected return, as confirmed by carefully conducted analyses. Moreover, a deep neural network-based agent is trained using the highway graph, resulting in better generalization and lower storage costs." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_982c5d63a71b2961.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_982c5d63a71b2961.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Reinforcement Learning (RL) algorithms often suffer from low training efficiency. A strategy to mitigate this issue is to incorporate a model-based planning algorithm, such as Monte Carlo Tree Search (MCTS) or Value Iteration (VI), into the environmental model. The major limitation of VI is the need to iterate over a large tensor. These still lead to intensive computations. We focus on improving the training efficiency of RL algorithms by improving the efficiency of the value learning process. For the deterministic environments with discrete state and action spaces, a non-branching sequence of transitions moves the agent without deviating from intermediate states, which we call a highway. On such non-branching highways, the value-updating process can be merged as a one-step process instead of iterating the value step-by-step. Based on this observation, we propose a novel graph structure, named highway graph, to model the state transition. Our highway graph compresses the transition model into a concise graph, where edges can represent multiple state transitions to support value propagation across multiple time steps in each iteration. We thus can obtain a more efficient value learning approach by facilitating the VI algorithm on highway graphs. By integrating the highway graph into RL (as a model-based off-policy RL method), the RL training can be remarkably accelerated in the early stages (within 1 million frames). Comparison against various baselines on four categories of environments reveals that our method outperforms both representative and novel model-free and model-based RL algorithms, demonstrating 10 to more than 150 times more efficiency while maintaining an equal or superior expected return, as confirmed by carefully conducted analyses. Moreover, a deep neural network-based agent is trained using the highway graph, resulting in better generalization and lower storage costs." /><meta property="og:image" content="https://zzhang.org/media/icon_hu_982c5d63a71b2961.png" />
+    <meta property="twitter:image" content="https://zzhang.org/media/icon_hu_982c5d63a71b2961.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -182,7 +184,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/publication/yin-highway-2024/"
+    "@id": "https://zzhang.org/publication/yin-highway-2024/"
   },
   "headline": "Highway Graph to Accelerate Reinforcement Learning",
   
@@ -199,7 +201,7 @@
     "name": "Zhen Zhang",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/media/icon_hu_a6282450d1fd5f43.png"
+      "url": "https://zzhang.org/media/icon_hu_a6282450d1fd5f43.png"
     }
   },
   "description": "Reinforcement Learning (RL) algorithms often suffer from low training efficiency. A strategy to mitigate this issue is to incorporate a model-based planning algorithm, such as Monte Carlo Tree Search (MCTS) or Value Iteration (VI), into the environmental model. The major limitation of VI is the need to iterate over a large tensor. These still lead to intensive computations. We focus on improving the training efficiency of RL algorithms by improving the efficiency of the value learning process. For the deterministic environments with discrete state and action spaces, a non-branching sequence of transitions moves the agent without deviating from intermediate states, which we call a highway. On such non-branching highways, the value-updating process can be merged as a one-step process instead of iterating the value step-by-step. Based on this observation, we propose a novel graph structure, named highway graph, to model the state transition. Our highway graph compresses the transition model into a concise graph, where edges can represent multiple state transitions to support value propagation across multiple time steps in each iteration. We thus can obtain a more efficient value learning approach by facilitating the VI algorithm on highway graphs. By integrating the highway graph into RL (as a model-based off-policy RL method), the RL training can be remarkably accelerated in the early stages (within 1 million frames). Comparison against various baselines on four categories of environments reveals that our method outperforms both representative and novel model-free and model-based RL algorithms, demonstrating 10 to more than 150 times more efficiency while maintaining an equal or superior expected return, as confirmed by carefully conducted analyses. Moreover, a deep neural network-based agent is trained using the highway graph, resulting in better generalization and lower storage costs."
@@ -366,8 +368,8 @@
 
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.f6d20625465941cffbf052688e3167754eacc34f49421de8ee7c49ba2b767674.js"
+    integrity="sha256-9tIGJUZZQc/78FJojjFndU6sw09JQh3o7nxJuit2dnQ="
   ></script>
 
   
@@ -403,7 +405,7 @@
   }
 </style>
 
-<script defer src="/js/hb-search.min.js"></script>
+<script defer src="/js/hb-search.min.4b44970077f9b8dbb07f9abdbfe86060821705a17efd24530e336de452d72890.js" integrity="sha256-S0SXAHf5uNuwf5q9v&#43;hgYIIXBaF&#43;/SRTDjNt5FLXKJA=" crossorigin="anonymous"></script>
 
 
 
@@ -679,6 +681,14 @@
     href="/post/neurips/"
     
   >🎉 Excited to share that our team has three papers accepted at NeurIPS 2025 — on advances in optimization, probabilistic forecasting, and multimodal learning. Grateful to all collaborators and looking forward to the discussions at the conference!
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/post/iccv25/"
+    
+  >🎉 Our Paper &#34;Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning&#34; was accepted to ICCV25
     </a>
               
             </li><li class="flex flex-col "><a
@@ -1419,7 +1429,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fyin-highway-2024%2F&amp;text=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fzzhang.org%2Fpublication%2Fyin-highway-2024%2F&amp;text=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1437,7 +1447,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fyin-highway-2024%2F&amp;t=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fzzhang.org%2Fpublication%2Fyin-highway-2024%2F&amp;t=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1457,7 +1467,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=Highway%20Graph%20to%20Accelerate%20Reinforcement%20Learning&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fyin-highway-2024%2F"
+    href="mailto:?subject=Highway%20Graph%20to%20Accelerate%20Reinforcement%20Learning&amp;body=https%3A%2F%2Fzzhang.org%2Fpublication%2Fyin-highway-2024%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1475,7 +1485,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fyin-highway-2024%2F&amp;title=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fzzhang.org%2Fpublication%2Fyin-highway-2024%2F&amp;title=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1493,7 +1503,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning%20http%3A%2F%2Flocalhost%3A1313%2Fpublication%2Fyin-highway-2024%2F"
+    href="whatsapp://send?text=Highway&#43;Graph&#43;to&#43;Accelerate&#43;Reinforcement&#43;Learning%20https%3A%2F%2Fzzhang.org%2Fpublication%2Fyin-highway-2024%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1712,9 +1722,9 @@
       
       
       
-      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Builder</a>.
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox</a>.
       <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
-         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Duplicate this template →</a>
     </p></footer>
 
     </div>
