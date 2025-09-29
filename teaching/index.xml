@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching and Supervision | Zhen Zhang</title>
-    <link>https://zzhang.org/teaching/</link>
-      <atom:link href="https://zzhang.org/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/teaching/</link>
+      <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teaching and Supervision</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://zzhang.org/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Teaching and Supervision</title>
-      <link>https://zzhang.org/teaching/</link>
+      <link>http://localhost:1313/teaching/</link>
     </image>
     
   </channel>

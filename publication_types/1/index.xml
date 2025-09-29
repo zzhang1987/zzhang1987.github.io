@@ -2,157 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Zhen Zhang</title>
-    <link>https://zzhang.org/publication_types/1/</link>
-      <atom:link href="https://zzhang.org/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/1/</link>
+      <atom:link href="http://localhost:1313/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://zzhang.org/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
       <title>1</title>
-      <link>https://zzhang.org/publication_types/1/</link>
+      <link>http://localhost:1313/publication_types/1/</link>
     </image>
     
     <item>
       <title>Silver Linings: On the Types of Distribution Shifts that Enhance Identifiability in Causal Representation Learning</title>
-      <link>https://zzhang.org/submitted_papers/latent_causal/</link>
+      <link>http://localhost:1313/submitted_papers/latent_causal/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/submitted_papers/latent_causal/</guid>
+      <guid>http://localhost:1313/submitted_papers/latent_causal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Quest for Winning Tickets in Low-Rank Adapters</title>
-      <link>https://zzhang.org/submitted_papers/winnint/</link>
+      <link>http://localhost:1313/submitted_papers/winnint/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/submitted_papers/winnint/</guid>
+      <guid>http://localhost:1313/submitted_papers/winnint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?</title>
-      <link>https://zzhang.org/submitted_papers/llm/</link>
+      <link>http://localhost:1313/submitted_papers/llm/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/submitted_papers/llm/</guid>
+      <guid>http://localhost:1313/submitted_papers/llm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decomposing Task Vectors for Refined Model Editing</title>
-      <link>https://zzhang.org/submitted_papers/task-decomposition/</link>
+      <link>http://localhost:1313/submitted_papers/task-decomposition/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/submitted_papers/task-decomposition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Identifiable Latent Polynomial Causal Models Through the Lens of Change</title>
-      <link>https://zzhang.org/publication/liu-identifiable-2024/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/liu-identifiable-2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A lightweight network for high dynamic range imaging</title>
-      <link>https://zzhang.org/publication/yan-lightweight-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/yan-lightweight-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NTIRE 2022 challenge on high dynamic range imaging: Methods and results</title>
-      <link>https://zzhang.org/publication/perez-pellitero-ntire-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/perez-pellitero-ntire-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memory-augmented dynamic neural relational inference</title>
-      <link>https://zzhang.org/publication/gong-memory-augmented-2021/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/gong-memory-augmented-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multiplicative gaussian particle filter</title>
-      <link>https://zzhang.org/publication/su-multiplicative-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/su-multiplicative-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual relationship detection with low rank non-negative tensor decomposition</title>
-      <link>https://zzhang.org/publication/dupty-visual-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/dupty-visual-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep graphical feature learning for the feature matching problem</title>
-      <link>https://zzhang.org/publication/zhang-deep-2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/zhang-deep-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Convolutional sequence to sequence model for human dynamics</title>
-      <link>https://zzhang.org/publication/li-convolutional-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/li-convolutional-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dynamic Programming Bipartite Belief Propagation For Hyper Graph Matching.</title>
-      <link>https://zzhang.org/publication/zhang-dynamic-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/zhang-dynamic-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Solving Constrained Combinatorial Optimisation Problems via MAP Inference without High-Order Penalties</title>
-      <link>https://zzhang.org/publication/zhang-solving-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/zhang-solving-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joint probabilistic matching using m-best solutions</title>
-      <link>https://zzhang.org/publication/hamid-rezatofighi-joint-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/hamid-rezatofighi-joint-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pairwise matching through max-weight bipartite belief propagation</title>
-      <link>https://zzhang.org/publication/zhang-pairwise-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/zhang-pairwise-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joint probabilistic data association revisited</title>
-      <link>https://zzhang.org/publication/rezatofighi-joint-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/rezatofighi-joint-2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning graph structure for multi-label image classification via clique generation</title>
-      <link>https://zzhang.org/publication/tan-learning-2015/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/tan-learning-2015/</guid>
+      <guid>http://localhost:1313/submitted_papers/task-decomposition/</guid>
       <description></description>
     </item>
     

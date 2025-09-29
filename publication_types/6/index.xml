@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6 | Zhen Zhang</title>
-    <link>https://zzhang.org/publication_types/6/</link>
-      <atom:link href="https://zzhang.org/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    <title>6 | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/publication_types/6/</link>
+      <atom:link href="http://localhost:1313/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://zzhang.org/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
       <title>6</title>
-      <link>https://zzhang.org/publication_types/6/</link>
+      <link>http://localhost:1313/publication_types/6/</link>
     </image>
     
     <item>
       <title>CLAP: Isolating Content from Style Through Contrastive Learning with Augmented Prompts</title>
-      <link>https://zzhang.org/publication/leonardis-clap-2025/</link>
+      <link>http://localhost:1313/publication/leonardis-clap-2025/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/leonardis-clap-2025/</guid>
+      <guid>http://localhost:1313/publication/leonardis-clap-2025/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generalized Kernel Density Estimation Based Robust Estimator and Its Application</title>
-      <link>https://zzhang.org/publication/hutchison-generalized-2012/</link>
+      <link>http://localhost:1313/publication/hutchison-generalized-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://zzhang.org/publication/hutchison-generalized-2012/</guid>
+      <guid>http://localhost:1313/publication/hutchison-generalized-2012/</guid>
       <description></description>
     </item>
     

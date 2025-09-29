@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graph Neural Networks | Zhen Zhang</title>
-    <link>https://zzhang.org/project/fgnn/</link>
-      <atom:link href="https://zzhang.org/project/fgnn/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/project/fgnn/</link>
+      <atom:link href="http://localhost:1313/project/fgnn/index.xml" rel="self" type="application/rss+xml" />
     <description>Graph Neural Networks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://zzhang.org/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Graph Neural Networks</title>
-      <link>https://zzhang.org/project/fgnn/</link>
+      <link>http://localhost:1313/project/fgnn/</link>
     </image>
     
   </channel>
