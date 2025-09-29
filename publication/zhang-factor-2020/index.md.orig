@@ -1,0 +1,60 @@
+---
+title: Factor graph neural networks
+date: '2020-01-01'
+draft: false
+publishDate: '2025-01-29T00:34:24.462121Z'
+authors:
+- Zhen Zhang
+- Fan Wu
+- Wee Sun Lee
+publication_types:
+- '2'
+abstract: ''
+featured: true
+publication: '*Advances in Neural Information Processing Systems*'
+
+abstract: Most of the successful deep neural network architectures are structured, often consisting of elements like convolutional neural networks and gated recurrent neural networks. Recently, graph neural networks (GNNs) have been successfully applied to graph-structured data such as point cloud and molecular data. These networks often only consider pairwise dependencies, as they operate on a graph structure. We generalize the GNN into a factor graph neural network (FGNN) providing a simple way to incorporate dependencies among multiple variables. We show that FGNN is able to represent Max-Product belief propagation, an approximate inference method on probabilistic graphical models, providing a theoretical understanding on the capabilities of FGNN and related GNNs. Experiments on synthetic and real datasets demonstrate the potential of the proposed architecture.
+
+
+
+# Summary. An optional shortened abstract.
+summary: The Factor Graph Neural Network (FGNN) extends traditional graph neural networks (GNNs) to capture dependencies among multiple variables, providing a framework capable of representing Max-Product belief propagation for approximate inference in probabilistic graphical models, with demonstrated effectiveness on synthetic and real datasets.
+
+
+
+
+tags:
+  - Factor Graph Neural Networks
+  - MAP Inference
+
+
+# Display this page in the Featured widget?
+featured: true
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+url_pdf: 'https://proceedings.neurips.cc/paper_files/paper/2020/file/61c66a2f4e6e10dc9c16ddf9d19745d6-Paper.pdf'
+url_code: 'https://github.com/zzhang1987/Factor-Graph-Neural-Network'
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects:
+  - DAGLearning
+
+---
+
